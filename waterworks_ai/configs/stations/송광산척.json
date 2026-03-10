@@ -1,0 +1,30 @@
+{
+  "station": "송광산척",
+  "features": [
+    "PIT_401",
+    "PIT_402",
+    "A101",
+    "V101",
+    "INV01",
+    "INV02"
+  ],
+  "feature_types": {
+    "PIT_401": "pressure",
+    "PIT_402": "pressure",
+    "A101": "current",
+    "V101": "voltage",
+    "INV01": "inverter",
+    "INV02": "inverter"
+  },
+  "sensor_weights": {
+    "PIT_401": 1.0,
+    "PIT_402": 1.0,
+    "A101": 0.7,
+    "V101": 0.6,
+    "INV01": 0.7,
+    "INV02": 0.7
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "A"
+}

@@ -1,0 +1,39 @@
+{
+  "station": "왕조운곡",
+  "features": [
+    "PT_100",
+    "PT_101",
+    "PT_102",
+    "PT_103",
+    "LT_101",
+    "LT_101H",
+    "LT_101HH",
+    "FT_101",
+    "FT_103"
+  ],
+  "feature_types": {
+    "PT_100": "pressure",
+    "PT_101": "pressure",
+    "PT_102": "pressure",
+    "PT_103": "pressure",
+    "LT_101": "level",
+    "LT_101H": "level",
+    "LT_101HH": "level",
+    "FT_101": "flow",
+    "FT_103": "flow"
+  },
+  "sensor_weights": {
+    "PT_100": 1.0,
+    "PT_101": 1.0,
+    "PT_102": 1.0,
+    "PT_103": 1.0,
+    "LT_101": 0.9,
+    "LT_101H": 0.9,
+    "LT_101HH": 0.9,
+    "FT_101": 0.9,
+    "FT_103": 0.9
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "A"
+}

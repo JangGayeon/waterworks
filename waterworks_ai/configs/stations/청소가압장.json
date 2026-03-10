@@ -1,0 +1,27 @@
+{
+  "station": "청소가압장",
+  "features": [
+    "압력_토출_LEVEL",
+    "압력_흡입_LEVEL",
+    "인버터_LEVEL_A",
+    "인버터_LEVEL_B",
+    "인버터_LEVEL_C"
+  ],
+  "feature_types": {
+    "압력_토출_LEVEL": "pressure",
+    "압력_흡입_LEVEL": "pressure",
+    "인버터_LEVEL_A": "level",
+    "인버터_LEVEL_B": "level",
+    "인버터_LEVEL_C": "level"
+  },
+  "sensor_weights": {
+    "압력_토출_LEVEL": 1.0,
+    "압력_흡입_LEVEL": 1.0,
+    "인버터_LEVEL_A": 0.9,
+    "인버터_LEVEL_B": 0.9,
+    "인버터_LEVEL_C": 0.9
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "A"
+}

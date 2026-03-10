@@ -1,0 +1,30 @@
+{
+  "station": "조례복성",
+  "features": [
+    "PIT_101",
+    "PIT_102",
+    "전류",
+    "전압",
+    "INV01",
+    "INV02"
+  ],
+  "feature_types": {
+    "PIT_101": "pressure",
+    "PIT_102": "pressure",
+    "전류": "current",
+    "전압": "voltage",
+    "INV01": "inverter",
+    "INV02": "inverter"
+  },
+  "sensor_weights": {
+    "PIT_101": 1.0,
+    "PIT_102": 1.0,
+    "전류": 0.7,
+    "전압": 0.6,
+    "INV01": 0.7,
+    "INV02": 0.7
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "A"
+}

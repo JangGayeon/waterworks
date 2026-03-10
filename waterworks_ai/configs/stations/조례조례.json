@@ -1,0 +1,9 @@
+{
+  "station": "조례조례",
+  "features": [],
+  "feature_types": {},
+  "sensor_weights": {},
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "C"
+}

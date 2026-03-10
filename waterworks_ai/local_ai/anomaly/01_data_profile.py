@@ -1,7 +1,7 @@
 import pandas as pd
 from collections import defaultdict
 
-FILE = r"C:\waterworks\waterworks_ai\data\raw\sensor_csv\20230101.csv"
+FILE = r"C:\wa\waterworks\waterworks_ai\data\raw\sensor_csv\20230101.csv"
 
 df = pd.read_csv(FILE, encoding='cp949')
 

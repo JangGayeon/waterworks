@@ -1,0 +1,21 @@
+{
+  "station": "석현실버빌2",
+  "features": [
+    "PIT101_IN",
+    "PIT101_OUT",
+    "석현실버빌2전압"
+  ],
+  "feature_types": {
+    "PIT101_IN": "pressure",
+    "PIT101_OUT": "pressure",
+    "석현실버빌2전압": "voltage"
+  },
+  "sensor_weights": {
+    "PIT101_IN": 1.0,
+    "PIT101_OUT": 1.0,
+    "석현실버빌2전압": 0.6
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "B"
+}

@@ -1,0 +1,30 @@
+{
+  "station": "상사오곡",
+  "features": [
+    "PIT101_IN",
+    "PIT101_OUT",
+    "전류",
+    "전압",
+    "INV1_HZ",
+    "INV2_HZ"
+  ],
+  "feature_types": {
+    "PIT101_IN": "pressure",
+    "PIT101_OUT": "pressure",
+    "전류": "current",
+    "전압": "voltage",
+    "INV1_HZ": "inverter",
+    "INV2_HZ": "inverter"
+  },
+  "sensor_weights": {
+    "PIT101_IN": 1.0,
+    "PIT101_OUT": 1.0,
+    "전류": 0.7,
+    "전압": 0.6,
+    "INV1_HZ": 0.7,
+    "INV2_HZ": 0.7
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "A"
+}

@@ -1,0 +1,24 @@
+{
+  "station": "주암송광.유량계실",
+  "features": [
+    "PIT102",
+    "FT101_순시",
+    "A101",
+    "V101"
+  ],
+  "feature_types": {
+    "PIT102": "pressure",
+    "FT101_순시": "flow",
+    "A101": "current",
+    "V101": "voltage"
+  },
+  "sensor_weights": {
+    "PIT102": 1.0,
+    "FT101_순시": 0.9,
+    "A101": 0.7,
+    "V101": 0.6
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "B"
+}

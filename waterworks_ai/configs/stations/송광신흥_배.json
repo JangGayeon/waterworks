@@ -1,0 +1,30 @@
+{
+  "station": "송광신흥_배",
+  "features": [
+    "LT501_A",
+    "LT501_B",
+    "FT602_순시",
+    "FT603_순시",
+    "A101",
+    "V101"
+  ],
+  "feature_types": {
+    "LT501_A": "level",
+    "LT501_B": "level",
+    "FT602_순시": "flow",
+    "FT603_순시": "flow",
+    "A101": "current",
+    "V101": "voltage"
+  },
+  "sensor_weights": {
+    "LT501_A": 0.9,
+    "LT501_B": 0.9,
+    "FT602_순시": 0.9,
+    "FT603_순시": 0.9,
+    "A101": 0.7,
+    "V101": 0.6
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "A"
+}

@@ -1,0 +1,24 @@
+{
+  "station": "별량금동",
+  "features": [
+    "토출압력",
+    "흡입압력",
+    "금곡_LS101",
+    "금곡_LS102"
+  ],
+  "feature_types": {
+    "토출압력": "pressure",
+    "흡입압력": "pressure",
+    "금곡_LS101": "other",
+    "금곡_LS102": "other"
+  },
+  "sensor_weights": {
+    "토출압력": 1.0,
+    "흡입압력": 1.0,
+    "금곡_LS101": 0.5,
+    "금곡_LS102": 0.5
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "B"
+}

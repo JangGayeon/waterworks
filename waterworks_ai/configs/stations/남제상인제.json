@@ -1,0 +1,30 @@
+{
+  "station": "남제상인제",
+  "features": [
+    "PIT101_IN",
+    "PIT101_OUT",
+    "LT_01",
+    "LT_02",
+    "LT_03",
+    "INV_HZ"
+  ],
+  "feature_types": {
+    "PIT101_IN": "pressure",
+    "PIT101_OUT": "pressure",
+    "LT_01": "level",
+    "LT_02": "level",
+    "LT_03": "level",
+    "INV_HZ": "inverter"
+  },
+  "sensor_weights": {
+    "PIT101_IN": 1.0,
+    "PIT101_OUT": 1.0,
+    "LT_01": 0.9,
+    "LT_02": 0.9,
+    "LT_03": 0.9,
+    "INV_HZ": 0.7
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "A"
+}

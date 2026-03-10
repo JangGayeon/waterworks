@@ -1,0 +1,27 @@
+{
+  "station": "매곡북정리",
+  "features": [
+    "PIT_101",
+    "PIT_102",
+    "LT_02",
+    "전압",
+    "INV_HZ"
+  ],
+  "feature_types": {
+    "PIT_101": "pressure",
+    "PIT_102": "pressure",
+    "LT_02": "level",
+    "전압": "voltage",
+    "INV_HZ": "inverter"
+  },
+  "sensor_weights": {
+    "PIT_101": 1.0,
+    "PIT_102": 1.0,
+    "LT_02": 0.9,
+    "전압": 0.6,
+    "INV_HZ": 0.7
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "A"
+}

@@ -1,0 +1,27 @@
+{
+  "station": "서면대구",
+  "features": [
+    "PT_101",
+    "PT_102",
+    "전류",
+    "전압",
+    "INV_HZ"
+  ],
+  "feature_types": {
+    "PT_101": "pressure",
+    "PT_102": "pressure",
+    "전류": "current",
+    "전압": "voltage",
+    "INV_HZ": "inverter"
+  },
+  "sensor_weights": {
+    "PT_101": 1.0,
+    "PT_102": 1.0,
+    "전류": 0.7,
+    "전압": 0.6,
+    "INV_HZ": 0.7
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "A"
+}

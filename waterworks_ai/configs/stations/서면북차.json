@@ -1,0 +1,18 @@
+{
+  "station": "서면북차",
+  "features": [
+    "PIT101_IN",
+    "PIT101_OUT"
+  ],
+  "feature_types": {
+    "PIT101_IN": "pressure",
+    "PIT101_OUT": "pressure"
+  },
+  "sensor_weights": {
+    "PIT101_IN": 1.0,
+    "PIT101_OUT": 1.0
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "C"
+}

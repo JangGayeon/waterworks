@@ -1,0 +1,21 @@
+{
+  "station": "해룡용전",
+  "features": [
+    "PT_101",
+    "PT_102",
+    "LT_101"
+  ],
+  "feature_types": {
+    "PT_101": "pressure",
+    "PT_102": "pressure",
+    "LT_101": "level"
+  },
+  "sensor_weights": {
+    "PT_101": 1.0,
+    "PT_102": 1.0,
+    "LT_101": 0.9
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "B"
+}
