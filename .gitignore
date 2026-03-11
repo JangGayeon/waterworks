@@ -8,6 +8,7 @@
 # 2. 데이터 폴더 전체 (안전 장치)
 data/raw/
 data/processed/
+data/
 
 # 3. 가상환경 및 라이브러리 (용량 큼)
 water/
@@ -16,6 +17,7 @@ env/
 .venv/
 
 # 4. 파이썬 실행 부산물
+# Pythons
 __pycache__/
 *.py[cod]
 *$py.class
