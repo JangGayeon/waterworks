@@ -1,0 +1,40 @@
+{
+  "station": "주암송광.배수지",
+  "cohort": "A",
+  "device": "cuda",
+  "n_features": 8,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.0036691148313726983,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.14251835626048387,
+      "val_loss": 0.05380951843205417
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.014128429488798276,
+      "val_loss": 0.0064739598949278936
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0020009256121438475,
+      "val_loss": 0.003716817383629348
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.0016391143894806091,
+      "val_loss": 0.003696652974817183
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0006762011082123723,
+      "val_loss": 0.0036691148313726983
+    }
+  ]
+}

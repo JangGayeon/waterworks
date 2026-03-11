@@ -1,0 +1,21 @@
+{
+  "station": "서면덕진",
+  "features": [
+    "PIT_IN",
+    "PIT_OUT",
+    "LT01"
+  ],
+  "feature_types": {
+    "PIT_IN": "pressure",
+    "PIT_OUT": "pressure",
+    "LT01": "level"
+  },
+  "sensor_weights": {
+    "PIT_IN": 1.0,
+    "PIT_OUT": 1.0,
+    "LT01": 0.9
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "B"
+}

@@ -1,0 +1,40 @@
+{
+  "station": "남제남정",
+  "cohort": "B",
+  "device": "cuda",
+  "n_features": 3,
+  "hidden_size": 32,
+  "num_layers": 1,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.0007461270696209934,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.0886048221926051,
+      "val_loss": 0.01736708497380727
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.005307331611618442,
+      "val_loss": 0.0028968547217749284
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0015845216925497784,
+      "val_loss": 0.001219934398940608
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.0009566319666632334,
+      "val_loss": 0.0008827361705304529
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0006472398442936569,
+      "val_loss": 0.0007461270696209934
+    }
+  ]
+}

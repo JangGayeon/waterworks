@@ -1,0 +1,19 @@
+{
+  "station": "주암송광.가압장",
+  "cohort": "A",
+  "feature_count": 6,
+  "features": [
+    "PIT201",
+    "PIT202",
+    "LT201_A",
+    "LT201_B",
+    "A101",
+    "V101"
+  ],
+  "row_count": 1051122,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840850,
+  "val_sequence_count": 210213,
+  "val_ratio": 0.2
+}

@@ -1,0 +1,48 @@
+{
+  "station": "주암송광",
+  "features": [
+    "PIT102",
+    "PIT201",
+    "PIT202",
+    "LT201_A",
+    "LT201_B",
+    "LT301_A",
+    "FT101_순시",
+    "FT302_순시",
+    "A101",
+    "V101",
+    "ZT201A",
+    "ZT201B"
+  ],
+  "feature_types": {
+    "PIT102": "pressure",
+    "PIT201": "pressure",
+    "PIT202": "pressure",
+    "LT201_A": "level",
+    "LT201_B": "level",
+    "LT301_A": "level",
+    "FT101_순시": "flow",
+    "FT302_순시": "flow",
+    "A101": "current",
+    "V101": "voltage",
+    "ZT201A": "zt",
+    "ZT201B": "zt"
+  },
+  "sensor_weights": {
+    "PIT102": 1.0,
+    "PIT201": 1.0,
+    "PIT202": 1.0,
+    "LT201_A": 0.9,
+    "LT201_B": 0.9,
+    "LT301_A": 0.9,
+    "FT101_순시": 0.9,
+    "FT302_순시": 0.9,
+    "A101": 0.7,
+    "V101": 0.6,
+    "ZT201A": 0.6,
+    "ZT201B": 0.6
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "A"
+}

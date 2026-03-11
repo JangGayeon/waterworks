@@ -1,0 +1,17 @@
+{
+  "station": "송광산척.유량계실",
+  "cohort": "B",
+  "feature_count": 4,
+  "features": [
+    "PIT102",
+    "FT101_순시",
+    "A101",
+    "V101"
+  ],
+  "row_count": 1051128,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840855,
+  "val_sequence_count": 210214,
+  "val_ratio": 0.2
+}

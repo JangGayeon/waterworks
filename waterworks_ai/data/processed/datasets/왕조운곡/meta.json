@@ -1,0 +1,22 @@
+{
+  "station": "왕조운곡",
+  "cohort": "A",
+  "feature_count": 9,
+  "features": [
+    "PT_100",
+    "PT_101",
+    "PT_102",
+    "PT_103",
+    "LT_101",
+    "LT_101H",
+    "LT_101HH",
+    "FT_101",
+    "FT_103"
+  ],
+  "row_count": 1051128,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840855,
+  "val_sequence_count": 210214,
+  "val_ratio": 0.2
+}

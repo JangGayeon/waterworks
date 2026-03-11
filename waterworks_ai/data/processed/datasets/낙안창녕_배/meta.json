@@ -1,0 +1,17 @@
+{
+  "station": "낙안창녕_배",
+  "cohort": "B",
+  "feature_count": 4,
+  "features": [
+    "LT101",
+    "LT102",
+    "FT101",
+    "상전류"
+  ],
+  "row_count": 1051128,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840855,
+  "val_sequence_count": 210214,
+  "val_ratio": 0.2
+}

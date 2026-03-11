@@ -1,0 +1,18 @@
+{
+  "station": "조례비봉",
+  "features": [
+    "PIT_IN",
+    "PIT_OUT",
+    "HZ"
+  ],
+  "feature_types": {
+    "PIT_IN": "pressure",
+    "PIT_OUT": "pressure",
+    "HZ": "other"
+  },
+  "sensor_weights": {
+    "PIT_IN": 1.0,
+    "PIT_OUT": 1.0,
+    "HZ": 0.5
+  }
+}

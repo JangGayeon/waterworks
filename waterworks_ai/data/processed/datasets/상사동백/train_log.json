@@ -1,0 +1,40 @@
+{
+  "station": "상사동백",
+  "cohort": "B",
+  "device": "cuda",
+  "n_features": 4,
+  "hidden_size": 32,
+  "num_layers": 1,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 4,
+  "best_val_loss": 0.039532716231791123,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.33617729343547886,
+      "val_loss": 0.062381355551642495
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.29777980859566616,
+      "val_loss": 0.05131695453378719
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.28685179837096414,
+      "val_loss": 0.042541508901841066
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.276650350910232,
+      "val_loss": 0.039532716231791123
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.26709360567079043,
+      "val_loss": 0.042554375744454004
+    }
+  ]
+}

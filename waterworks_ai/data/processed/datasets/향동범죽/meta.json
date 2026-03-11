@@ -1,0 +1,21 @@
+{
+  "station": "향동범죽",
+  "cohort": "A",
+  "feature_count": 8,
+  "features": [
+    "PIT101_IN",
+    "PIT101_OUT",
+    "LT_01",
+    "LT_02_N",
+    "향동범죽전류1",
+    "향동범죽전류2",
+    "향동범죽전압",
+    "INV_HZ"
+  ],
+  "row_count": 1051128,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840855,
+  "val_sequence_count": 210214,
+  "val_ratio": 0.2
+}

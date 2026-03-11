@@ -1,0 +1,18 @@
+{
+  "station": "낙안교촌",
+  "cohort": "A",
+  "feature_count": 5,
+  "features": [
+    "PT101",
+    "PT102",
+    "배수지수위",
+    "INV3_RPM",
+    "INV4_RPM"
+  ],
+  "row_count": 1051121,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840849,
+  "val_sequence_count": 210213,
+  "val_ratio": 0.2
+}

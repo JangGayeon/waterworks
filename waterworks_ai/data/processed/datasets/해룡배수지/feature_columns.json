@@ -1,0 +1,15 @@
+{
+  "station": "해룡배수지",
+  "features": [
+    "LI101",
+    "LI102"
+  ],
+  "feature_types": {
+    "LI101": "other",
+    "LI102": "other"
+  },
+  "sensor_weights": {
+    "LI101": 0.5,
+    "LI102": 0.5
+  }
+}

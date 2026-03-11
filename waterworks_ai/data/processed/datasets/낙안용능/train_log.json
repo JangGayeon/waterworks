@@ -1,0 +1,40 @@
+{
+  "station": "낙안용능",
+  "cohort": "A",
+  "device": "cuda",
+  "n_features": 7,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.0011720096253690258,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.19817003356530283,
+      "val_loss": 0.006613887482742811
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.15678890094196826,
+      "val_loss": 0.0016120442443244315
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.1431618516960839,
+      "val_loss": 0.0018739514398254588
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.13047743522965818,
+      "val_loss": 0.006152141799044471
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.11873982122702711,
+      "val_loss": 0.0011720096253690258
+    }
+  ]
+}

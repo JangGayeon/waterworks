@@ -1,0 +1,19 @@
+{
+  "station": "송광신흥_배",
+  "cohort": "A",
+  "feature_count": 6,
+  "features": [
+    "LT501_A",
+    "LT501_B",
+    "FT602_순시",
+    "FT603_순시",
+    "A101",
+    "V101"
+  ],
+  "row_count": 1051128,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840855,
+  "val_sequence_count": 210214,
+  "val_ratio": 0.2
+}

@@ -1,0 +1,21 @@
+{
+  "station": "배수지",
+  "features": [
+    "LS103_HH",
+    "LS103_HI",
+    "LS103_LL",
+    "LS103_LO"
+  ],
+  "feature_types": {
+    "LS103_HH": "other",
+    "LS103_HI": "other",
+    "LS103_LL": "other",
+    "LS103_LO": "other"
+  },
+  "sensor_weights": {
+    "LS103_HH": 0.5,
+    "LS103_HI": 0.5,
+    "LS103_LL": 0.5,
+    "LS103_LO": 0.5
+  }
+}

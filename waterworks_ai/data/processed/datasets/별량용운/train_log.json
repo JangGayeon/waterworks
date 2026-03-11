@@ -1,0 +1,40 @@
+{
+  "station": "별량용운",
+  "cohort": "B",
+  "device": "cuda",
+  "n_features": 4,
+  "hidden_size": 32,
+  "num_layers": 1,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.00035689621942130273,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.34558008436100984,
+      "val_loss": 0.005029694116028556
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.3004438077409684,
+      "val_loss": 0.0013564813991446601
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.2918264032595999,
+      "val_loss": 0.000799354818114816
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.2823985493578254,
+      "val_loss": 0.00100440792558112
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.2731466872045609,
+      "val_loss": 0.00035689621942130273
+    }
+  ]
+}

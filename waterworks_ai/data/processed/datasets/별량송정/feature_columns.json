@@ -1,0 +1,18 @@
+{
+  "station": "별량송정",
+  "features": [
+    "PIT_01",
+    "PIT_02",
+    "INV_HZ"
+  ],
+  "feature_types": {
+    "PIT_01": "pressure",
+    "PIT_02": "pressure",
+    "INV_HZ": "inverter"
+  },
+  "sensor_weights": {
+    "PIT_01": 1.0,
+    "PIT_02": 1.0,
+    "INV_HZ": 0.7
+  }
+}

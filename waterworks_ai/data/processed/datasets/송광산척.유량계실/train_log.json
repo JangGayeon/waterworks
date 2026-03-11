@@ -1,0 +1,40 @@
+{
+  "station": "송광산척.유량계실",
+  "cohort": "B",
+  "device": "cuda",
+  "n_features": 4,
+  "hidden_size": 32,
+  "num_layers": 1,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.00038133873678944944,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.35832338956658283,
+      "val_loss": 0.0017342034209980753
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.3119451199285764,
+      "val_loss": 0.0006361683385068247
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.3079337056260645,
+      "val_loss": 0.00048413904147053254
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.30391927473336683,
+      "val_loss": 0.0003939074824718246
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.30004725448977954,
+      "val_loss": 0.00038133873678944944
+    }
+  ]
+}

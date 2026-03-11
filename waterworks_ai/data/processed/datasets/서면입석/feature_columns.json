@@ -1,0 +1,12 @@
+{
+  "station": "서면입석",
+  "features": [
+    "LT_02"
+  ],
+  "feature_types": {
+    "LT_02": "level"
+  },
+  "sensor_weights": {
+    "LT_02": 0.9
+  }
+}

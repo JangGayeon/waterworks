@@ -1,0 +1,19 @@
+{
+  "station": "상사전원",
+  "cohort": "A",
+  "feature_count": 6,
+  "features": [
+    "PT101",
+    "PT102",
+    "LT101",
+    "배수지수위",
+    "AMPARE",
+    "VOLT"
+  ],
+  "row_count": 1051128,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840855,
+  "val_sequence_count": 210214,
+  "val_ratio": 0.2
+}

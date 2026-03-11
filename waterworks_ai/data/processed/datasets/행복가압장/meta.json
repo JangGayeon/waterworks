@@ -1,0 +1,17 @@
+{
+  "station": "행복가압장",
+  "cohort": "B",
+  "feature_count": 4,
+  "features": [
+    "압력_토출_LEVEL",
+    "압력_흡입_LEVEL",
+    "전력감시_A",
+    "전력감시_V"
+  ],
+  "row_count": 1006477,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 805134,
+  "val_sequence_count": 201284,
+  "val_ratio": 0.2
+}

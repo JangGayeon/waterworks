@@ -1,0 +1,33 @@
+{
+  "station": "향동범죽",
+  "features": [
+    "PIT101_IN",
+    "PIT101_OUT",
+    "LT_01",
+    "LT_02_N",
+    "향동범죽전류1",
+    "향동범죽전류2",
+    "향동범죽전압",
+    "INV_HZ"
+  ],
+  "feature_types": {
+    "PIT101_IN": "pressure",
+    "PIT101_OUT": "pressure",
+    "LT_01": "level",
+    "LT_02_N": "level",
+    "향동범죽전류1": "current",
+    "향동범죽전류2": "current",
+    "향동범죽전압": "voltage",
+    "INV_HZ": "inverter"
+  },
+  "sensor_weights": {
+    "PIT101_IN": 1.0,
+    "PIT101_OUT": 1.0,
+    "LT_01": 0.9,
+    "LT_02_N": 0.9,
+    "향동범죽전류1": 0.7,
+    "향동범죽전류2": 0.7,
+    "향동범죽전압": 0.6,
+    "INV_HZ": 0.7
+  }
+}

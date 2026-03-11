@@ -1,0 +1,40 @@
+{
+  "station": "주암",
+  "cohort": "B",
+  "device": "cuda",
+  "n_features": 4,
+  "hidden_size": 32,
+  "num_layers": 1,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 4,
+  "best_val_loss": 0.001061100033769008,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.141115344328252,
+      "val_loss": 0.01593535120849364
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.027936681531915555,
+      "val_loss": 0.005421818765082823
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.010909413010257081,
+      "val_loss": 0.0022446265787032372
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.004823689956819354,
+      "val_loss": 0.001061100033769008
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0026735663950154956,
+      "val_loss": 0.0014637247972256093
+    }
+  ]
+}

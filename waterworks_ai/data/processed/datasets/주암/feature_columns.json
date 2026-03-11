@@ -1,0 +1,21 @@
+{
+  "station": "주암",
+  "features": [
+    "PT101",
+    "PT102",
+    "PT201",
+    "PT202"
+  ],
+  "feature_types": {
+    "PT101": "pressure",
+    "PT102": "pressure",
+    "PT201": "pressure",
+    "PT202": "pressure"
+  },
+  "sensor_weights": {
+    "PT101": 1.0,
+    "PT102": 1.0,
+    "PT201": 1.0,
+    "PT202": 1.0
+  }
+}

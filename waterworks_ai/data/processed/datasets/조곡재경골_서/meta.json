@@ -1,0 +1,20 @@
+{
+  "station": "조곡재경골_서",
+  "cohort": "A",
+  "feature_count": 7,
+  "features": [
+    "PIT_101",
+    "PIT_102",
+    "LT_02",
+    "전류1",
+    "전류2",
+    "전압",
+    "INV_HZ"
+  ],
+  "row_count": 1051128,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840855,
+  "val_sequence_count": 210214,
+  "val_ratio": 0.2
+}

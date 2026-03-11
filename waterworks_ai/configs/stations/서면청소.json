@@ -1,0 +1,24 @@
+{
+  "station": "서면청소",
+  "features": [
+    "PIT_IN",
+    "PIT_OUT",
+    "INV1",
+    "INV2"
+  ],
+  "feature_types": {
+    "PIT_IN": "pressure",
+    "PIT_OUT": "pressure",
+    "INV1": "inverter",
+    "INV2": "inverter"
+  },
+  "sensor_weights": {
+    "PIT_IN": 1.0,
+    "PIT_OUT": 1.0,
+    "INV1": 0.7,
+    "INV2": 0.7
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "B"
+}

@@ -1,0 +1,20 @@
+{
+  "station": "서면동산",
+  "cohort": "A",
+  "feature_count": 7,
+  "features": [
+    "PT_101",
+    "PT_102",
+    "FLOW",
+    "전류",
+    "전압",
+    "INV_HZ",
+    "주파수"
+  ],
+  "row_count": 1051128,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840855,
+  "val_sequence_count": 210214,
+  "val_ratio": 0.2
+}

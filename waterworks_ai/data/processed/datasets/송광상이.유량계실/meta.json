@@ -1,0 +1,17 @@
+{
+  "station": "송광상이.유량계실",
+  "cohort": "B",
+  "feature_count": 4,
+  "features": [
+    "FT101_순시",
+    "A101",
+    "V101",
+    "FQ101_적산"
+  ],
+  "row_count": 1051128,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840855,
+  "val_sequence_count": 210214,
+  "val_ratio": 0.2
+}

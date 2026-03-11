@@ -1,0 +1,18 @@
+{
+  "station": "상사구계",
+  "cohort": "A",
+  "feature_count": 5,
+  "features": [
+    "PIT_IN",
+    "PIT_OUT",
+    "전류",
+    "전압",
+    "주파수"
+  ],
+  "row_count": 1051107,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840838,
+  "val_sequence_count": 210210,
+  "val_ratio": 0.2
+}

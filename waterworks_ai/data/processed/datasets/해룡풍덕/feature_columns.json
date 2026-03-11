@@ -1,0 +1,33 @@
+{
+  "station": "해룡풍덕",
+  "features": [
+    "PIT_101",
+    "PIT_102",
+    "PIT_103",
+    "LT_02",
+    "전류1",
+    "전류2",
+    "전압",
+    "인버터속도"
+  ],
+  "feature_types": {
+    "PIT_101": "pressure",
+    "PIT_102": "pressure",
+    "PIT_103": "pressure",
+    "LT_02": "level",
+    "전류1": "current",
+    "전류2": "current",
+    "전압": "voltage",
+    "인버터속도": "inverter"
+  },
+  "sensor_weights": {
+    "PIT_101": 1.0,
+    "PIT_102": 1.0,
+    "PIT_103": 1.0,
+    "LT_02": 0.9,
+    "전류1": 0.7,
+    "전류2": 0.7,
+    "전압": 0.6,
+    "인버터속도": 0.7
+  }
+}

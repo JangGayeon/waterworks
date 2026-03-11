@@ -1,0 +1,30 @@
+{
+  "station": "죽청배수지",
+  "features": [
+    "LT101A",
+    "LT101AH",
+    "LT101AHH",
+    "FT101",
+    "FT101Q",
+    "ZT101A",
+    "ZT101B"
+  ],
+  "feature_types": {
+    "LT101A": "level",
+    "LT101AH": "level",
+    "LT101AHH": "level",
+    "FT101": "flow",
+    "FT101Q": "flow",
+    "ZT101A": "zt",
+    "ZT101B": "zt"
+  },
+  "sensor_weights": {
+    "LT101A": 0.9,
+    "LT101AH": 0.9,
+    "LT101AHH": 0.9,
+    "FT101": 0.9,
+    "FT101Q": 0.9,
+    "ZT101A": 0.6,
+    "ZT101B": 0.6
+  }
+}

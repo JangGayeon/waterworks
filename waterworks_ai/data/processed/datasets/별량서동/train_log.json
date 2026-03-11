@@ -1,0 +1,40 @@
+{
+  "station": "별량서동",
+  "cohort": "B",
+  "device": "cuda",
+  "n_features": 3,
+  "hidden_size": 32,
+  "num_layers": 1,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 4,
+  "best_val_loss": 0.3559270633602404,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.07436254240808188,
+      "val_loss": 0.42187163074571105
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0059168449238266715,
+      "val_loss": 0.4690284854126301
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0017843520840463178,
+      "val_loss": 0.37582800930044147
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.0008450023834039948,
+      "val_loss": 0.3559270633602404
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.00055933981799964,
+      "val_loss": 0.3648590291735553
+    }
+  ]
+}

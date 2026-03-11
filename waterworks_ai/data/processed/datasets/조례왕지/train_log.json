@@ -1,0 +1,40 @@
+{
+  "station": "조례왕지",
+  "cohort": "B",
+  "device": "cuda",
+  "n_features": 4,
+  "hidden_size": 32,
+  "num_layers": 1,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.00023798522736790528,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.3815999092548072,
+      "val_loss": 0.0012583814594223914
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.30452071611654496,
+      "val_loss": 0.0005097497316783208
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.2822063161687266,
+      "val_loss": 0.0005087872036367908
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.265323921185848,
+      "val_loss": 0.00029061535509856116
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.2500912940995366,
+      "val_loss": 0.00023798522736790528
+    }
+  ]
+}

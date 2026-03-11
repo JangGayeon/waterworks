@@ -1,0 +1,19 @@
+{
+  "station": "남제상인제",
+  "cohort": "A",
+  "feature_count": 6,
+  "features": [
+    "PIT101_IN",
+    "PIT101_OUT",
+    "LT_01",
+    "LT_02",
+    "LT_03",
+    "INV_HZ"
+  ],
+  "row_count": 1051128,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840855,
+  "val_sequence_count": 210214,
+  "val_ratio": 0.2
+}

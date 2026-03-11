@@ -1,0 +1,21 @@
+{
+  "station": "신천배수지",
+  "features": [
+    "LT_301",
+    "전류",
+    "전압"
+  ],
+  "feature_types": {
+    "LT_301": "level",
+    "전류": "current",
+    "전압": "voltage"
+  },
+  "sensor_weights": {
+    "LT_301": 0.9,
+    "전류": 0.7,
+    "전압": 0.6
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "B"
+}

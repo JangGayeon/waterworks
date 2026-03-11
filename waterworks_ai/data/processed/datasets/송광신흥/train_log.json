@@ -1,0 +1,40 @@
+{
+  "station": "송광신흥",
+  "cohort": "A",
+  "device": "cuda",
+  "n_features": 6,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 4,
+  "best_val_loss": 0.00022291158988870102,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.017432673456454918,
+      "val_loss": 0.0014733446445607645
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0006598078696752858,
+      "val_loss": 0.00040561335590233623
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0002948775185852225,
+      "val_loss": 0.0003291869880738493
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.00018104349486031032,
+      "val_loss": 0.00022291158988870102
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.00012912188749798043,
+      "val_loss": 0.0003818163082528737
+    }
+  ]
+}

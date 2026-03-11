@@ -1,0 +1,40 @@
+{
+  "station": "수련소2",
+  "cohort": "B",
+  "device": "cuda",
+  "n_features": 4,
+  "hidden_size": 32,
+  "num_layers": 1,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 4,
+  "best_val_loss": 4.981246022569155e-05,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.05025038741572139,
+      "val_loss": 0.0003718221513030443
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0003847866394625151,
+      "val_loss": 0.00011501075779801628
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.00017601660683700657,
+      "val_loss": 0.00011543440717496793
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.00011305770788208056,
+      "val_loss": 4.981246022569155e-05
+    },
+    {
+      "epoch": 5,
+      "train_loss": 8.310000784355929e-05,
+      "val_loss": 0.00013197991255457783
+    }
+  ]
+}

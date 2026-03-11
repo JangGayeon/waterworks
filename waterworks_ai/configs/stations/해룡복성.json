@@ -1,0 +1,24 @@
+{
+  "station": "해룡복성",
+  "features": [
+    "복성토출압력",
+    "복성흡입압력",
+    "PUMP_1SPEED",
+    "PUMP_2SPEED"
+  ],
+  "feature_types": {
+    "복성토출압력": "pressure",
+    "복성흡입압력": "pressure",
+    "PUMP_1SPEED": "other",
+    "PUMP_2SPEED": "other"
+  },
+  "sensor_weights": {
+    "복성토출압력": 1.0,
+    "복성흡입압력": 1.0,
+    "PUMP_1SPEED": 0.5,
+    "PUMP_2SPEED": 0.5
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "B"
+}

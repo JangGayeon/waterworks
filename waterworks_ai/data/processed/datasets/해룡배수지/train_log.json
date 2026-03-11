@@ -1,0 +1,40 @@
+{
+  "station": "해룡배수지",
+  "cohort": "C",
+  "device": "cuda",
+  "n_features": 2,
+  "hidden_size": 16,
+  "num_layers": 1,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.00018524426176623297,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.07659690742824046,
+      "val_loss": 0.008970813510470419
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.004267711811341774,
+      "val_loss": 0.001603932856937441
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0009421990650806483,
+      "val_loss": 0.0006137468579081742
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.0003435521077708677,
+      "val_loss": 0.0002413579693698819
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0001449006893165677,
+      "val_loss": 0.00018524426176623297
+    }
+  ]
+}

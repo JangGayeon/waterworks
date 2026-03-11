@@ -1,0 +1,36 @@
+{
+  "station": "낙안창녕",
+  "features": [
+    "PIT101",
+    "PIT102",
+    "LT101",
+    "LT102",
+    "상전류",
+    "상전압",
+    "INV01",
+    "INV02"
+  ],
+  "feature_types": {
+    "PIT101": "pressure",
+    "PIT102": "pressure",
+    "LT101": "level",
+    "LT102": "level",
+    "상전류": "current",
+    "상전압": "voltage",
+    "INV01": "inverter",
+    "INV02": "inverter"
+  },
+  "sensor_weights": {
+    "PIT101": 1.0,
+    "PIT102": 1.0,
+    "LT101": 0.9,
+    "LT102": 0.9,
+    "상전류": 0.7,
+    "상전압": 0.6,
+    "INV01": 0.7,
+    "INV02": 0.7
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "A"
+}

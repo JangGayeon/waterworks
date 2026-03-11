@@ -1,0 +1,17 @@
+{
+  "station": "조례왕지",
+  "cohort": "B",
+  "feature_count": 4,
+  "features": [
+    "유입압력",
+    "유출압력_PV",
+    "유출압력_SP",
+    "M101_RPM"
+  ],
+  "row_count": 1051128,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840855,
+  "val_sequence_count": 210214,
+  "val_ratio": 0.2
+}

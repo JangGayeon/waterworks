@@ -1,0 +1,21 @@
+{
+  "station": "낙안창녕",
+  "cohort": "A",
+  "feature_count": 8,
+  "features": [
+    "PIT101",
+    "PIT102",
+    "LT101",
+    "LT102",
+    "상전류",
+    "상전압",
+    "INV01",
+    "INV02"
+  ],
+  "row_count": 1051128,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840855,
+  "val_sequence_count": 210214,
+  "val_ratio": 0.2
+}

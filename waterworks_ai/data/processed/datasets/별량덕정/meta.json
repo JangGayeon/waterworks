@@ -1,0 +1,17 @@
+{
+  "station": "별량덕정",
+  "cohort": "B",
+  "feature_count": 4,
+  "features": [
+    "PIT_101",
+    "PIT_102",
+    "LT_02",
+    "INV_HZ"
+  ],
+  "row_count": 1051127,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840854,
+  "val_sequence_count": 210214,
+  "val_ratio": 0.2
+}

@@ -1,0 +1,40 @@
+{
+  "station": "서면청소심원간",
+  "cohort": "B",
+  "device": "cuda",
+  "n_features": 4,
+  "hidden_size": 32,
+  "num_layers": 1,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 9.669063529189464e-05,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.043034652551994346,
+      "val_loss": 0.0016116711082743648
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0008219646975239773,
+      "val_loss": 0.00042593367846734787
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.00025294843150521146,
+      "val_loss": 0.00018871592788930434
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.00012370469755910548,
+      "val_loss": 0.00011556750690491435
+    },
+    {
+      "epoch": 5,
+      "train_loss": 8.033264345640258e-05,
+      "val_loss": 9.669063529189464e-05
+    }
+  ]
+}

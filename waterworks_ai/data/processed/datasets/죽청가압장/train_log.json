@@ -1,0 +1,40 @@
+{
+  "station": "죽청가압장",
+  "cohort": "A",
+  "device": "cuda",
+  "n_features": 7,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.6168671779738989,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.19713884483730665,
+      "val_loss": 2.428385848714623
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.13883301990418648,
+      "val_loss": 0.9163557709677801
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.1002563819378468,
+      "val_loss": 0.8095208563645517
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.07042610678576879,
+      "val_loss": 0.7048373944141648
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.04827089323934876,
+      "val_loss": 0.6168671779738989
+    }
+  ]
+}

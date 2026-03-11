@@ -1,0 +1,40 @@
+{
+  "station": "송산배",
+  "cohort": "B",
+  "device": "cuda",
+  "n_features": 4,
+  "hidden_size": 32,
+  "num_layers": 1,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 2.5902528022372032e-05,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.0522846255320323,
+      "val_loss": 0.00040490804204524385
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.000404225616542678,
+      "val_loss": 0.00011515576676581704
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.00014693720258149873,
+      "val_loss": 6.839912208603014e-05
+    },
+    {
+      "epoch": 4,
+      "train_loss": 8.605833684099441e-05,
+      "val_loss": 6.59539420308501e-05
+    },
+    {
+      "epoch": 5,
+      "train_loss": 5.780744094626422e-05,
+      "val_loss": 2.5902528022372032e-05
+    }
+  ]
+}

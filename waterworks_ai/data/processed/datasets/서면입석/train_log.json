@@ -1,0 +1,40 @@
+{
+  "station": "서면입석",
+  "cohort": "C",
+  "device": "cuda",
+  "n_features": 1,
+  "hidden_size": 16,
+  "num_layers": 1,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 2.1833000124463728e-06,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.07131220364954448,
+      "val_loss": 0.00041744325419325936
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.004658288383597067,
+      "val_loss": 8.259824242535186e-05
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0017261690621170874,
+      "val_loss": 4.9585105421710155e-06
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.00085524014165141,
+      "val_loss": 3.1940887765813386e-06
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0005462029228637289,
+      "val_loss": 2.1833000124463728e-06
+    }
+  ]
+}

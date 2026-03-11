@@ -1,0 +1,21 @@
+{
+  "station": "해룡풍덕",
+  "cohort": "A",
+  "feature_count": 8,
+  "features": [
+    "PIT_101",
+    "PIT_102",
+    "PIT_103",
+    "LT_02",
+    "전류1",
+    "전류2",
+    "전압",
+    "인버터속도"
+  ],
+  "row_count": 1051128,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840855,
+  "val_sequence_count": 210214,
+  "val_ratio": 0.2
+}

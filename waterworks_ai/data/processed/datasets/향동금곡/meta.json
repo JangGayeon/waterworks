@@ -1,0 +1,21 @@
+{
+  "station": "향동금곡",
+  "cohort": "A",
+  "feature_count": 8,
+  "features": [
+    "PT101",
+    "PT102",
+    "LT101",
+    "LT101_HH_SET",
+    "LT101_H_SET",
+    "전류",
+    "전압",
+    "INV_RPM"
+  ],
+  "row_count": 1051122,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840850,
+  "val_sequence_count": 210213,
+  "val_ratio": 0.2
+}

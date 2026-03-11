@@ -1,0 +1,27 @@
+{
+  "station": "주암송광.가압장",
+  "features": [
+    "PIT201",
+    "PIT202",
+    "LT201_A",
+    "LT201_B",
+    "A101",
+    "V101"
+  ],
+  "feature_types": {
+    "PIT201": "pressure",
+    "PIT202": "pressure",
+    "LT201_A": "level",
+    "LT201_B": "level",
+    "A101": "current",
+    "V101": "voltage"
+  },
+  "sensor_weights": {
+    "PIT201": 1.0,
+    "PIT202": 1.0,
+    "LT201_A": 0.9,
+    "LT201_B": 0.9,
+    "A101": 0.7,
+    "V101": 0.6
+  }
+}

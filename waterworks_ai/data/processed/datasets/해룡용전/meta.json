@@ -1,0 +1,16 @@
+{
+  "station": "해룡용전",
+  "cohort": "B",
+  "feature_count": 3,
+  "features": [
+    "PT_101",
+    "PT_102",
+    "LT_101"
+  ],
+  "row_count": 1051127,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840854,
+  "val_sequence_count": 210214,
+  "val_ratio": 0.2
+}

@@ -1,0 +1,22 @@
+{
+  "station": "서면지본",
+  "cohort": "A",
+  "feature_count": 9,
+  "features": [
+    "PIT101_IN",
+    "PIT101_OUT",
+    "LT_02",
+    "LT_02A",
+    "LT_02B",
+    "서면지본전류",
+    "서면지본전류2",
+    "서면지본전압",
+    "INV_HZ"
+  ],
+  "row_count": 1051128,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840855,
+  "val_sequence_count": 210214,
+  "val_ratio": 0.2
+}

@@ -1,0 +1,30 @@
+{
+  "station": "조례연동",
+  "features": [
+    "PIT101_IN",
+    "PIT101_OUT",
+    "전류",
+    "전압",
+    "INVERTER",
+    "주파수"
+  ],
+  "feature_types": {
+    "PIT101_IN": "pressure",
+    "PIT101_OUT": "pressure",
+    "전류": "current",
+    "전압": "voltage",
+    "INVERTER": "inverter",
+    "주파수": "inverter"
+  },
+  "sensor_weights": {
+    "PIT101_IN": 1.0,
+    "PIT101_OUT": 1.0,
+    "전류": 0.7,
+    "전압": 0.6,
+    "INVERTER": 0.7,
+    "주파수": 0.7
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "A"
+}

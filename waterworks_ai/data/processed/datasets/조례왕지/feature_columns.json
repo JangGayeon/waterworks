@@ -1,0 +1,21 @@
+{
+  "station": "조례왕지",
+  "features": [
+    "유입압력",
+    "유출압력_PV",
+    "유출압력_SP",
+    "M101_RPM"
+  ],
+  "feature_types": {
+    "유입압력": "pressure",
+    "유출압력_PV": "pressure",
+    "유출압력_SP": "pressure",
+    "M101_RPM": "other"
+  },
+  "sensor_weights": {
+    "유입압력": 1.0,
+    "유출압력_PV": 1.0,
+    "유출압력_SP": 1.0,
+    "M101_RPM": 0.5
+  }
+}

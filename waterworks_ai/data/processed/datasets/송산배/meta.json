@@ -1,0 +1,17 @@
+{
+  "station": "송산배",
+  "cohort": "B",
+  "feature_count": 4,
+  "features": [
+    "LT102A",
+    "LT102B",
+    "FT102A",
+    "FT102B"
+  ],
+  "row_count": 1051127,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840854,
+  "val_sequence_count": 210214,
+  "val_ratio": 0.2
+}

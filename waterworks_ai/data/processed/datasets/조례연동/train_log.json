@@ -1,0 +1,40 @@
+{
+  "station": "조례연동",
+  "cohort": "A",
+  "device": "cuda",
+  "n_features": 6,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.017115739733356033,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.04950172422246269,
+      "val_loss": 0.023964989562096854
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0017645507344452996,
+      "val_loss": 0.021190454438725293
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0009772026213639043,
+      "val_loss": 0.01915166150145329
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.000663949454511031,
+      "val_loss": 0.018485579972269472
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0005049196214186024,
+      "val_loss": 0.017115739733356033
+    }
+  ]
+}

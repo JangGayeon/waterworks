@@ -1,0 +1,14 @@
+{
+  "station": "서면입석",
+  "cohort": "C",
+  "feature_count": 1,
+  "features": [
+    "LT_02"
+  ],
+  "row_count": 1051107,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840838,
+  "val_sequence_count": 210210,
+  "val_ratio": 0.2
+}

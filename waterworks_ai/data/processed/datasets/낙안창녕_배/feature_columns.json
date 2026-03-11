@@ -1,0 +1,21 @@
+{
+  "station": "낙안창녕_배",
+  "features": [
+    "LT101",
+    "LT102",
+    "FT101",
+    "상전류"
+  ],
+  "feature_types": {
+    "LT101": "level",
+    "LT102": "level",
+    "FT101": "flow",
+    "상전류": "current"
+  },
+  "sensor_weights": {
+    "LT101": 0.9,
+    "LT102": 0.9,
+    "FT101": 0.9,
+    "상전류": 0.7
+  }
+}

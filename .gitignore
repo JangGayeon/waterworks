@@ -1,47 +1,44 @@
-# 가상환경
-water/
-venv/
-env/
-*.egg-info/
 
-# 데이터 파일 (raw, processed)
+# 1. 대용량 데이터 
+*.npy
+*.csv
+*.pkl
+*.parquet
+
+# 2. 데이터 폴더 전체 (안전 장치)
 data/raw/
 data/processed/
 
-# Python
+# 3. 가상환경 및 라이브러리 (용량 큼)
+water/
+venv/
+env/
+.venv/
+
+# 4. 파이썬 실행 부산물
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
-.Python
 build/
-develop-eggs/
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
+.eggs/
+water/
+venv/
+env/
+.venv/
 
-# IDE
+# 5. 개발 툴 설정 (VS Code, IntelliJ 등)
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
+.project
+.settings/
 
-# OS
+# 6. 운영체제 임시 파일
 .DS_Store
 Thumbs.db
 
-# 기타
+# 7. 보안 파일 (API 키 등)
 .env
 .env.local
-*.log

@@ -1,0 +1,36 @@
+{
+  "station": "향동금곡",
+  "features": [
+    "PT101",
+    "PT102",
+    "LT101",
+    "LT101_HH_SET",
+    "LT101_H_SET",
+    "전류",
+    "전압",
+    "INV_RPM"
+  ],
+  "feature_types": {
+    "PT101": "pressure",
+    "PT102": "pressure",
+    "LT101": "level",
+    "LT101_HH_SET": "level",
+    "LT101_H_SET": "level",
+    "전류": "current",
+    "전압": "voltage",
+    "INV_RPM": "inverter"
+  },
+  "sensor_weights": {
+    "PT101": 1.0,
+    "PT102": 1.0,
+    "LT101": 0.9,
+    "LT101_HH_SET": 0.9,
+    "LT101_H_SET": 0.9,
+    "전류": 0.7,
+    "전압": 0.6,
+    "INV_RPM": 0.7
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "A"
+}

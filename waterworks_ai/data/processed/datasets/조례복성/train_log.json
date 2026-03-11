@@ -1,0 +1,40 @@
+{
+  "station": "조례복성",
+  "cohort": "A",
+  "device": "cuda",
+  "n_features": 6,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.0007346492252940564,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.06892714799580957,
+      "val_loss": 0.001129501257314465
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.03128131817672983,
+      "val_loss": 0.0008793545738628775
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.023876294810202644,
+      "val_loss": 0.002216453328000726
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.0182105320271151,
+      "val_loss": 0.0011944835237963827
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.013573317640018756,
+      "val_loss": 0.0007346492252940564
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "station": "남제남정",
+  "features": [
+    "PIT_IN",
+    "PIT_OUT",
+    "INV"
+  ],
+  "feature_types": {
+    "PIT_IN": "pressure",
+    "PIT_OUT": "pressure",
+    "INV": "inverter"
+  },
+  "sensor_weights": {
+    "PIT_IN": 1.0,
+    "PIT_OUT": 1.0,
+    "INV": 0.7
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "B"
+}

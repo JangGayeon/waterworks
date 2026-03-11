@@ -1,0 +1,40 @@
+{
+  "station": "청소가압장",
+  "cohort": "A",
+  "device": "cuda",
+  "n_features": 5,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.006268172129637945,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.13315734368998297,
+      "val_loss": 0.025840900434268222
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.00749893134143615,
+      "val_loss": 0.027518991703522056
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.003490367589709333,
+      "val_loss": 0.029415188082596647
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.00330878459672328,
+      "val_loss": 0.013000369750445807
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0016198017361043289,
+      "val_loss": 0.006268172129637945
+    }
+  ]
+}

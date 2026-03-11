@@ -1,0 +1,24 @@
+{
+  "station": "행복가압장",
+  "features": [
+    "압력_토출_LEVEL",
+    "압력_흡입_LEVEL",
+    "전력감시_A",
+    "전력감시_V"
+  ],
+  "feature_types": {
+    "압력_토출_LEVEL": "pressure",
+    "압력_흡입_LEVEL": "pressure",
+    "전력감시_A": "other",
+    "전력감시_V": "other"
+  },
+  "sensor_weights": {
+    "압력_토출_LEVEL": 1.0,
+    "압력_흡입_LEVEL": 1.0,
+    "전력감시_A": 0.5,
+    "전력감시_V": 0.5
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "B"
+}

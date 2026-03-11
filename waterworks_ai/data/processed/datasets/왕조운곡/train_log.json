@@ -1,0 +1,40 @@
+{
+  "station": "왕조운곡",
+  "cohort": "A",
+  "device": "cuda",
+  "n_features": 9,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 4,
+  "best_val_loss": 0.0001524353612336053,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.15093649217369506,
+      "val_loss": 0.001245239954870908
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.09459424987222267,
+      "val_loss": 0.0009238807546963956
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.06733696379267483,
+      "val_loss": 0.0002762365446208156
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.04637078475816742,
+      "val_loss": 0.0001524353612336053
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.03128282628823818,
+      "val_loss": 0.00018991181851160592
+    }
+  ]
+}

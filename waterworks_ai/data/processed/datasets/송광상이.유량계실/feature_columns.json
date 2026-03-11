@@ -1,0 +1,21 @@
+{
+  "station": "송광상이.유량계실",
+  "features": [
+    "FT101_순시",
+    "A101",
+    "V101",
+    "FQ101_적산"
+  ],
+  "feature_types": {
+    "FT101_순시": "flow",
+    "A101": "current",
+    "V101": "voltage",
+    "FQ101_적산": "other"
+  },
+  "sensor_weights": {
+    "FT101_순시": 0.9,
+    "A101": 0.7,
+    "V101": 0.6,
+    "FQ101_적산": 0.5
+  }
+}

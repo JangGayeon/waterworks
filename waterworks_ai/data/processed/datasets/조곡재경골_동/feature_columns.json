@@ -1,0 +1,18 @@
+{
+  "station": "조곡재경골_동",
+  "features": [
+    "PIT101_IN",
+    "PIT101_OUT",
+    "INV"
+  ],
+  "feature_types": {
+    "PIT101_IN": "pressure",
+    "PIT101_OUT": "pressure",
+    "INV": "inverter"
+  },
+  "sensor_weights": {
+    "PIT101_IN": 1.0,
+    "PIT101_OUT": 1.0,
+    "INV": 0.7
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "station": "매곡북정리",
+  "cohort": "A",
+  "feature_count": 5,
+  "features": [
+    "PIT_101",
+    "PIT_102",
+    "LT_02",
+    "전압",
+    "INV_HZ"
+  ],
+  "row_count": 1051128,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840855,
+  "val_sequence_count": 210214,
+  "val_ratio": 0.2
+}

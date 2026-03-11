@@ -1,0 +1,27 @@
+{
+  "station": "상사전원",
+  "features": [
+    "PT101",
+    "PT102",
+    "LT101",
+    "배수지수위",
+    "AMPARE",
+    "VOLT"
+  ],
+  "feature_types": {
+    "PT101": "pressure",
+    "PT102": "pressure",
+    "LT101": "level",
+    "배수지수위": "level",
+    "AMPARE": "current",
+    "VOLT": "voltage"
+  },
+  "sensor_weights": {
+    "PT101": 1.0,
+    "PT102": 1.0,
+    "LT101": 0.9,
+    "배수지수위": 0.9,
+    "AMPARE": 0.7,
+    "VOLT": 0.6
+  }
+}

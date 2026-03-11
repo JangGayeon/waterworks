@@ -1,0 +1,16 @@
+{
+  "station": "상사마륜",
+  "cohort": "B",
+  "feature_count": 3,
+  "features": [
+    "PT_101",
+    "PT_102",
+    "주파수"
+  ],
+  "row_count": 1051122,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840850,
+  "val_sequence_count": 210213,
+  "val_ratio": 0.2
+}

@@ -1,0 +1,40 @@
+{
+  "station": "향동범죽",
+  "cohort": "A",
+  "device": "cuda",
+  "n_features": 8,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 4,
+  "best_val_loss": 0.00022206996027196826,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.054167702819626136,
+      "val_loss": 0.0020993511668040187
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.009607857348389579,
+      "val_loss": 0.000608790507148161
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.005776512334240201,
+      "val_loss": 0.0006995861553584187
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.0035077722818017305,
+      "val_loss": 0.00022206996027196826
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0020939646617577114,
+      "val_loss": 0.0002738144981011056
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "station": "청소가압장",
+  "cohort": "A",
+  "feature_count": 5,
+  "features": [
+    "압력_토출_LEVEL",
+    "압력_흡입_LEVEL",
+    "인버터_LEVEL_A",
+    "인버터_LEVEL_B",
+    "인버터_LEVEL_C"
+  ],
+  "row_count": 1006477,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 805134,
+  "val_sequence_count": 201284,
+  "val_ratio": 0.2
+}

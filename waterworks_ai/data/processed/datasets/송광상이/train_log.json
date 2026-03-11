@@ -1,0 +1,40 @@
+{
+  "station": "송광상이",
+  "cohort": "A",
+  "device": "cuda",
+  "n_features": 6,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.0007217075115459497,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.03602047135028917,
+      "val_loss": 0.003106006434178229
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0006284012785363025,
+      "val_loss": 0.001716564414055294
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.00040421963570486395,
+      "val_loss": 0.0011694396066636871
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.00030354046532642375,
+      "val_loss": 0.0008088201924551215
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.00023265373156183786,
+      "val_loss": 0.0007217075115459497
+    }
+  ]
+}

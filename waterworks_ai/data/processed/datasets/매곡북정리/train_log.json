@@ -1,0 +1,40 @@
+{
+  "station": "매곡북정리",
+  "cohort": "A",
+  "device": "cuda",
+  "n_features": 5,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.00016385789026759825,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.2941498818173354,
+      "val_loss": 0.00054507173572037
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.2511193994644078,
+      "val_loss": 0.0006105800473434033
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.22722789507015823,
+      "val_loss": 0.0003751502680578997
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.20543613310199105,
+      "val_loss": 0.0002664368805415909
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.18593000095158488,
+      "val_loss": 0.00016385789026759825
+    }
+  ]
+}

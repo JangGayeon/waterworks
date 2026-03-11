@@ -1,0 +1,40 @@
+{
+  "station": "비룡가압장",
+  "cohort": "B",
+  "device": "cuda",
+  "n_features": 4,
+  "hidden_size": 32,
+  "num_layers": 1,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 4,
+  "best_val_loss": 0.00029962131982405675,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.07608064448373458,
+      "val_loss": 0.0020313949567510457
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0035701603650342487,
+      "val_loss": 0.0032536375872923183
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0017811745186483616,
+      "val_loss": 0.00043814959580171497
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.0010736456592197962,
+      "val_loss": 0.00029962131982405675
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0007169906367361382,
+      "val_loss": 0.0006744843511871738
+    }
+  ]
+}

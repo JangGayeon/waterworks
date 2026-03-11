@@ -1,0 +1,40 @@
+{
+  "station": "서면북차",
+  "cohort": "C",
+  "device": "cuda",
+  "n_features": 2,
+  "hidden_size": 16,
+  "num_layers": 1,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.00013547026396526103,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.0926543831390488,
+      "val_loss": 0.0030434407529459674
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.006381853127144095,
+      "val_loss": 0.0009855106129175633
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.004721208149307739,
+      "val_loss": 0.0004062018460213714
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.003879766831372197,
+      "val_loss": 0.00023270032668561014
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0033570031038338724,
+      "val_loss": 0.00013547026396526103
+    }
+  ]
+}

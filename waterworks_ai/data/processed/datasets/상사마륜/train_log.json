@@ -1,0 +1,40 @@
+{
+  "station": "상사마륜",
+  "cohort": "B",
+  "device": "cuda",
+  "n_features": 3,
+  "hidden_size": 32,
+  "num_layers": 1,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.18393157575090502,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.027528672325319276,
+      "val_loss": 0.38826512731873736
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.00037618006607441785,
+      "val_loss": 0.2784906049044481
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.00021047065820754973,
+      "val_loss": 0.23136968084502718
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.000152156991837153,
+      "val_loss": 0.2030751000127017
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0001233231727088607,
+      "val_loss": 0.18393157575090502
+    }
+  ]
+}

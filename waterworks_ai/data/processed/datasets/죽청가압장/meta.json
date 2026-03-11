@@ -1,0 +1,20 @@
+{
+  "station": "죽청가압장",
+  "cohort": "A",
+  "feature_count": 7,
+  "features": [
+    "PT101",
+    "PT102",
+    "LT101A",
+    "LT101B",
+    "LT102A",
+    "ZT101A",
+    "ZT101B"
+  ],
+  "row_count": 1051107,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840838,
+  "val_sequence_count": 210210,
+  "val_ratio": 0.2
+}

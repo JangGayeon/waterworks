@@ -1,0 +1,17 @@
+{
+  "station": "서면청소",
+  "cohort": "B",
+  "feature_count": 4,
+  "features": [
+    "PIT_IN",
+    "PIT_OUT",
+    "INV1",
+    "INV2"
+  ],
+  "row_count": 1051122,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840850,
+  "val_sequence_count": 210213,
+  "val_ratio": 0.2
+}

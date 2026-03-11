@@ -1,0 +1,21 @@
+{
+  "station": "축내가압장",
+  "features": [
+    "압력_토출_LEVEL",
+    "압력_흡입_LEVEL",
+    "인버터_LEVEL",
+    "전력감시_A"
+  ],
+  "feature_types": {
+    "압력_토출_LEVEL": "pressure",
+    "압력_흡입_LEVEL": "pressure",
+    "인버터_LEVEL": "level",
+    "전력감시_A": "other"
+  },
+  "sensor_weights": {
+    "압력_토출_LEVEL": 1.0,
+    "압력_흡입_LEVEL": 1.0,
+    "인버터_LEVEL": 0.9,
+    "전력감시_A": 0.5
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "station": "송광신흥",
+  "cohort": "A",
+  "feature_count": 6,
+  "features": [
+    "PIT_401",
+    "PIT_402",
+    "A101",
+    "V101",
+    "INV01",
+    "INV02"
+  ],
+  "row_count": 1051128,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840855,
+  "val_sequence_count": 210214,
+  "val_ratio": 0.2
+}

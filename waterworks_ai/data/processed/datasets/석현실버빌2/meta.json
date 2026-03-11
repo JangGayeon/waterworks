@@ -1,0 +1,16 @@
+{
+  "station": "석현실버빌2",
+  "cohort": "B",
+  "feature_count": 3,
+  "features": [
+    "PIT101_IN",
+    "PIT101_OUT",
+    "석현실버빌2전압"
+  ],
+  "row_count": 1051128,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840855,
+  "val_sequence_count": 210214,
+  "val_ratio": 0.2
+}

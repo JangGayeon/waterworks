@@ -1,0 +1,40 @@
+{
+  "station": "조곡재경골_서",
+  "cohort": "A",
+  "device": "cuda",
+  "n_features": 7,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 4,
+  "best_val_loss": 0.00025290617187280284,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.04263709727896213,
+      "val_loss": 0.0010747583012604733
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0007467118994675894,
+      "val_loss": 0.00038564363939570345
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.00039066610315591704,
+      "val_loss": 0.00036764436068538453
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.00026286215275718124,
+      "val_loss": 0.00025290617187280284
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0001951515999605987,
+      "val_loss": 0.00036483246942774173
+    }
+  ]
+}

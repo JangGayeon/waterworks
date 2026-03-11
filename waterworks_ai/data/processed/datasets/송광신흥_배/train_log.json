@@ -1,0 +1,40 @@
+{
+  "station": "송광신흥_배",
+  "cohort": "A",
+  "device": "cuda",
+  "n_features": 6,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.430736680318164,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.03918925182947207,
+      "val_loss": 0.4839310454291919
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.014667642891789394,
+      "val_loss": 0.44629575484485745
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.011443545156131883,
+      "val_loss": 0.44095410673548113
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.00899805242638241,
+      "val_loss": 0.43415493240754055
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.006849212896837341,
+      "val_loss": 0.430736680318164
+    }
+  ]
+}

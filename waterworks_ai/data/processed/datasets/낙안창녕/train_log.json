@@ -1,0 +1,40 @@
+{
+  "station": "낙안창녕",
+  "cohort": "A",
+  "device": "cuda",
+  "n_features": 8,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.02471730671464538,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.07614875605079675,
+      "val_loss": 0.032257244402503125
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.004128707554686604,
+      "val_loss": 0.02820459469714607
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0012619112322555786,
+      "val_loss": 0.02600628487607371
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.000491597153519899,
+      "val_loss": 0.025832087772301116
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0003187016662159682,
+      "val_loss": 0.02471730671464538
+    }
+  ]
+}

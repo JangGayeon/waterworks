@@ -1,0 +1,40 @@
+{
+  "station": "신천배수지",
+  "cohort": "B",
+  "device": "cuda",
+  "n_features": 3,
+  "hidden_size": 32,
+  "num_layers": 1,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.0014911688491546294,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.1398208462036059,
+      "val_loss": 0.05436481490453018
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.06250291427336692,
+      "val_loss": 0.023346642945601927
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.03929501724005643,
+      "val_loss": 0.008380340841257352
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.026486951524541592,
+      "val_loss": 0.0025769162099480453
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.019978168066130553,
+      "val_loss": 0.0014911688491546294
+    }
+  ]
+}

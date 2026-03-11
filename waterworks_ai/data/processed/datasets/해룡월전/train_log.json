@@ -1,0 +1,40 @@
+{
+  "station": "해룡월전",
+  "cohort": "B",
+  "device": "cuda",
+  "n_features": 3,
+  "hidden_size": 32,
+  "num_layers": 1,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 4,
+  "best_val_loss": 0.0001189959654219844,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.043777305299774145,
+      "val_loss": 0.003425756311316016
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0024356345667570236,
+      "val_loss": 0.00048890342223407
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0007410523323212361,
+      "val_loss": 0.00020557974595202636
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.00031214306043215523,
+      "val_loss": 0.0001189959654219844
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.00018454780738449462,
+      "val_loss": 0.0005281880507704523
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "station": "석현실버빌1",
+  "cohort": "B",
+  "device": "cuda",
+  "n_features": 3,
+  "hidden_size": 32,
+  "num_layers": 1,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.008720804594966006,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.10804105882975173,
+      "val_loss": 0.059147477303909186
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.05244362869214426,
+      "val_loss": 0.04265058369595301
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.04690279796796447,
+      "val_loss": 0.0315493002612231
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.042525799702051593,
+      "val_loss": 0.0174884825840302
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.03891866570196719,
+      "val_loss": 0.008720804594966006
+    }
+  ]
+}

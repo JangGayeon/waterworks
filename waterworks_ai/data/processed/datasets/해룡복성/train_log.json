@@ -1,0 +1,40 @@
+{
+  "station": "해룡복성",
+  "cohort": "B",
+  "device": "cuda",
+  "n_features": 4,
+  "hidden_size": 32,
+  "num_layers": 1,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.0010870764631219435,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.07594533304613575,
+      "val_loss": 0.005179161455996625
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0031116806214482014,
+      "val_loss": 0.002288902135211249
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.001556043435727477,
+      "val_loss": 0.0015506597684465185
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.0010574127715316925,
+      "val_loss": 0.0013441506054772431
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0007944541003873058,
+      "val_loss": 0.0010870764631219435
+    }
+  ]
+}

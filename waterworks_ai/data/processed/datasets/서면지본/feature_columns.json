@@ -1,0 +1,36 @@
+{
+  "station": "서면지본",
+  "features": [
+    "PIT101_IN",
+    "PIT101_OUT",
+    "LT_02",
+    "LT_02A",
+    "LT_02B",
+    "서면지본전류",
+    "서면지본전류2",
+    "서면지본전압",
+    "INV_HZ"
+  ],
+  "feature_types": {
+    "PIT101_IN": "pressure",
+    "PIT101_OUT": "pressure",
+    "LT_02": "level",
+    "LT_02A": "level",
+    "LT_02B": "level",
+    "서면지본전류": "current",
+    "서면지본전류2": "current",
+    "서면지본전압": "voltage",
+    "INV_HZ": "inverter"
+  },
+  "sensor_weights": {
+    "PIT101_IN": 1.0,
+    "PIT101_OUT": 1.0,
+    "LT_02": 0.9,
+    "LT_02A": 0.9,
+    "LT_02B": 0.9,
+    "서면지본전류": 0.7,
+    "서면지본전류2": 0.7,
+    "서면지본전압": 0.6,
+    "INV_HZ": 0.7
+  }
+}

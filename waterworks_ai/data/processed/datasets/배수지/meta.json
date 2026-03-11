@@ -1,0 +1,17 @@
+{
+  "station": "배수지",
+  "cohort": "B",
+  "feature_count": 4,
+  "features": [
+    "LS103_HH",
+    "LS103_HI",
+    "LS103_LL",
+    "LS103_LO"
+  ],
+  "row_count": 1051128,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840855,
+  "val_sequence_count": 210214,
+  "val_ratio": 0.2
+}

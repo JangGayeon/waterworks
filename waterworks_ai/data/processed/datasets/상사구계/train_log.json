@@ -1,0 +1,40 @@
+{
+  "station": "상사구계",
+  "cohort": "A",
+  "device": "cuda",
+  "n_features": 5,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.00040976093395464356,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.1420824046121787,
+      "val_loss": 0.00534060670862653
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0022516162929237114,
+      "val_loss": 0.0017705295410170036
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0012782340167028102,
+      "val_loss": 0.0014243747037297246
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.000577149298665665,
+      "val_loss": 0.0004533490357895668
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.00038849757706531704,
+      "val_loss": 0.00040976093395464356
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "station": "해룡노월",
+  "features": [
+    "PT_101",
+    "LT101"
+  ],
+  "feature_types": {
+    "PT_101": "pressure",
+    "LT101": "level"
+  },
+  "sensor_weights": {
+    "PT_101": 1.0,
+    "LT101": 0.9
+  }
+}

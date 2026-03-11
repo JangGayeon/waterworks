@@ -1,0 +1,24 @@
+{
+  "station": "송산배",
+  "features": [
+    "LT102A",
+    "LT102B",
+    "FT102A",
+    "FT102B"
+  ],
+  "feature_types": {
+    "LT102A": "level",
+    "LT102B": "level",
+    "FT102A": "flow",
+    "FT102B": "flow"
+  },
+  "sensor_weights": {
+    "LT102A": 0.9,
+    "LT102B": 0.9,
+    "FT102A": 0.9,
+    "FT102B": 0.9
+  },
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "cohort": "B"
+}

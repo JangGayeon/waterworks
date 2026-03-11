@@ -1,0 +1,40 @@
+{
+  "station": "상사오곡",
+  "cohort": "A",
+  "device": "cuda",
+  "n_features": 6,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 4,
+  "best_val_loss": 0.0001186418454478422,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.04085609400350759,
+      "val_loss": 0.0008138840411715504
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.013919038786593601,
+      "val_loss": 0.00044077292286402573
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.008606450925450034,
+      "val_loss": 0.00024454674058044446
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.005070206027828731,
+      "val_loss": 0.0001186418454478422
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0027352774267723145,
+      "val_loss": 0.00040435388474597726
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "station": "서면대구",
+  "cohort": "A",
+  "device": "cuda",
+  "n_features": 5,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.0013958666223491706,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.07696450973371514,
+      "val_loss": 0.004946883105607182
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0038699200400080435,
+      "val_loss": 0.002158481974678261
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0019411308218112294,
+      "val_loss": 0.0018855081493014565
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.0012199685092418471,
+      "val_loss": 0.0014675787192008612
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0008895848004945307,
+      "val_loss": 0.0013958666223491706
+    }
+  ]
+}

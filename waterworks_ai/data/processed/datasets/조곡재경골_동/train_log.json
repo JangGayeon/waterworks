@@ -1,0 +1,40 @@
+{
+  "station": "조곡재경골_동",
+  "cohort": "B",
+  "device": "cuda",
+  "n_features": 3,
+  "hidden_size": 32,
+  "num_layers": 1,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.00016980594036595923,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.07314267298278251,
+      "val_loss": 0.0029481419511116734
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.007010735817562448,
+      "val_loss": 0.0005845098330388911
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.003272658359563053,
+      "val_loss": 0.00031799214120660827
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.001970214352061244,
+      "val_loss": 0.00030045824818236076
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0013085161949816396,
+      "val_loss": 0.00016980594036595923
+    }
+  ]
+}

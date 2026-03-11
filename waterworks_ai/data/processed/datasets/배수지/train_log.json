@@ -1,0 +1,40 @@
+{
+  "station": "배수지",
+  "cohort": "B",
+  "device": "cuda",
+  "n_features": 4,
+  "hidden_size": 32,
+  "num_layers": 1,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 2,
+  "best_val_loss": 1.4157586579152285e-09,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.758690932588954e-05,
+      "val_loss": 5.160398644219957e-09
+    },
+    {
+      "epoch": 2,
+      "train_loss": 3.503372594427436e-09,
+      "val_loss": 1.4157586579152285e-09
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.1030201460799749e-08,
+      "val_loss": 6.899622898427545e-09
+    },
+    {
+      "epoch": 4,
+      "train_loss": 4.014202060244822e-08,
+      "val_loss": 1.8517103823244675e-08
+    },
+    {
+      "epoch": 5,
+      "train_loss": 4.872051263392449e-08,
+      "val_loss": 6.760156730048734e-08
+    }
+  ]
+}

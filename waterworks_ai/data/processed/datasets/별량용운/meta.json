@@ -1,0 +1,17 @@
+{
+  "station": "별량용운",
+  "cohort": "B",
+  "feature_count": 4,
+  "features": [
+    "별량용운토출압력",
+    "별량용운흡입압력",
+    "PUMP_1SPEED",
+    "PUMP_2SPEED"
+  ],
+  "row_count": 1051127,
+  "sequence_length": 60,
+  "sampling_minutes": 1,
+  "train_sequence_count": 840854,
+  "val_sequence_count": 210214,
+  "val_ratio": 0.2
+}

@@ -1,0 +1,40 @@
+{
+  "station": "주암송광.유량계실",
+  "cohort": "B",
+  "device": "cuda",
+  "n_features": 4,
+  "hidden_size": 32,
+  "num_layers": 1,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 0.004937594795501576,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.2999208209343477,
+      "val_loss": 0.019517334836643925
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.18927177903086528,
+      "val_loss": 0.011801724313147062
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.13404209280530546,
+      "val_loss": 0.007747853875209503
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.09210858615670083,
+      "val_loss": 0.005588736137441232
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.05998400682817451,
+      "val_loss": 0.004937594795501576
+    }
+  ]
+}
