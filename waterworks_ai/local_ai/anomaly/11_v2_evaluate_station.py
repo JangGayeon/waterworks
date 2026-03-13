@@ -28,7 +28,7 @@ def get_device() -> torch.device:
 
 
 def load_model_for_station(station_dir: Path, device: torch.device) -> Tuple[LSTMAutoencoder, Dict[str, Any]]:
-    ckpt = torch.load(station_dir / "model.pt2", map_location=device, weights_only=False)
+    ckpt = torch.load(station_dir / "model2.pt", map_location=device, weights_only=False)
 
     n_features = int(ckpt["n_features"])
     hidden_size = int(ckpt["hidden_size"])
@@ -159,7 +159,7 @@ def compute_scores(
 
 
 def make_output_dir(station_dir: Path) -> Path:
-    out_dir = station_dir / "evaluation"
+    out_dir = station_dir / "evaluation2"
     out_dir.mkdir(parents=True, exist_ok=True)
     return out_dir
 
@@ -286,7 +286,7 @@ def main():
         actual=actual_inv,
         recon=recon_inv,
         feature_names=feature_names,
-        out_path=out_dir / "actual_vs_recon.png",
+        out_path=out_dir / "v2_actual_vs_recon.png",
         sample_index=sample_index,
         max_features=args.max_features_plot,
     )
@@ -295,28 +295,28 @@ def main():
         scores["seq_mae"],
         "Sequence MAE over validation windows",
         "MAE",
-        out_dir / "residual_timeseries.png"
+        out_dir / "v2_residual_timeseries.png"
     )
 
     plot_hist(
         scores["seq_mae"],
         "Residual MAE Histogram",
         "MAE",
-        out_dir / "residual_hist.png"
+        out_dir / "v2_residual_hist.png"
     )
 
     plot_series(
         scores["weighted_seq_mae"],
         "Weighted Sequence MAE over validation windows",
         "Weighted MAE",
-        out_dir / "weighted_residual_timeseries.png"
+        out_dir / "v2_weighted_residual_timeseries.png"
     )
 
     plot_series(
         scores["critical_sensor_max"],
         "Critical Sensor Max Residual over validation windows",
         "Critical Max Residual",
-        out_dir / "critical_sensor_timeseries.png"
+        out_dir / "v2_critical_sensor_timeseries.png"
     )
 
     feature_mae = {
@@ -359,14 +359,14 @@ def main():
         "feature_rmse": feature_rmse,
     }
 
-    save_json(out_dir / "evaluation_summary.json", summary)
+    save_json(out_dir / "v2_evaluation_summary.json", summary)
 
-    print(f"[OK] saved -> {out_dir / 'actual_vs_recon.png'}")
-    print(f"[OK] saved -> {out_dir / 'residual_timeseries.png'}")
-    print(f"[OK] saved -> {out_dir / 'residual_hist.png'}")
-    print(f"[OK] saved -> {out_dir / 'weighted_residual_timeseries.png'}")
-    print(f"[OK] saved -> {out_dir / 'critical_sensor_timeseries.png'}")
-    print(f"[OK] saved -> {out_dir / 'evaluation_summary.json'}")
+    print(f"[OK] saved -> {out_dir / 'v2_actual_vs_recon.png'}")
+    print(f"[OK] saved -> {out_dir / 'v2_residual_timeseries.png'}")
+    print(f"[OK] saved -> {out_dir / 'v2_residual_hist.png'}")
+    print(f"[OK] saved -> {out_dir / 'v2_weighted_residual_timeseries.png'}")
+    print(f"[OK] saved -> {out_dir / 'v2_critical_sensor_timeseries.png'}")
+    print(f"[OK] saved -> {out_dir / 'v2_evaluation_summary.json'}")
 
     print("\n=== THRESHOLD CANDIDATES ===")
     print("[seq_mae]")
