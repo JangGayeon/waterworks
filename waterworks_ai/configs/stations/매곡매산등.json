@@ -17,11 +17,32 @@
   "sensor_weights": {
     "PIT_101": 1.0,
     "PIT_102": 1.0,
-    "LT_02": 0.9,
+    "LT_02": 1.0,
     "전류2": 0.7,
     "전압": 0.6
   },
   "sequence_length": 60,
   "sampling_minutes": 1,
-  "cohort": "A"
+  "cohort": "A",
+  "main_sensor_types": [
+    "pressure",
+    "level"
+  ],
+  "secondary_sensor_types": [
+    "flow",
+    "current",
+    "voltage",
+    "inverter",
+    "zt",
+    "ao"
+  ],
+  "score_policy": {
+    "primary_focus": [
+      "pressure",
+      "level"
+    ],
+    "use_weighted_residual": true,
+    "use_critical_sensor_max": true,
+    "deadband_required": true
+  }
 }

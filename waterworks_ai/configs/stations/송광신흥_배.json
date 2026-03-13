@@ -4,7 +4,6 @@
     "LT501_A",
     "LT501_B",
     "FT602_순시",
-    "FT603_순시",
     "A101",
     "V101"
   ],
@@ -12,19 +11,38 @@
     "LT501_A": "level",
     "LT501_B": "level",
     "FT602_순시": "flow",
-    "FT603_순시": "flow",
     "A101": "current",
     "V101": "voltage"
   },
   "sensor_weights": {
-    "LT501_A": 0.9,
-    "LT501_B": 0.9,
-    "FT602_순시": 0.9,
-    "FT603_순시": 0.9,
+    "LT501_A": 1.0,
+    "LT501_B": 1.0,
+    "FT602_순시": 0.8,
     "A101": 0.7,
     "V101": 0.6
   },
   "sequence_length": 60,
   "sampling_minutes": 1,
-  "cohort": "A"
+  "cohort": "A",
+  "main_sensor_types": [
+    "pressure",
+    "level"
+  ],
+  "secondary_sensor_types": [
+    "flow",
+    "current",
+    "voltage",
+    "inverter",
+    "zt",
+    "ao"
+  ],
+  "score_policy": {
+    "primary_focus": [
+      "pressure",
+      "level"
+    ],
+    "use_weighted_residual": true,
+    "use_critical_sensor_max": true,
+    "deadband_required": true
+  }
 }

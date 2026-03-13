@@ -8,7 +8,7 @@ import numpy as np
 import torch
 import matplotlib.pyplot as plt
 
-from model import LSTMAutoencoder
+from local_ai.anomaly.model import LSTMAutoencoder
 
 
 def project_root() -> Path:
@@ -96,7 +96,7 @@ def normalize_weights(feature_names: List[str], sensor_weights: Dict[str, float]
 
 
 def get_critical_feature_indices(feature_names: List[str], feature_types: Dict[str, str]) -> List[int]:
-    critical_types = {"pressure", "level", "flow"}
+    critical_types = {"pressure", "level"}
     idx = []
     for i, feat in enumerate(feature_names):
         if feature_types.get(feat, "unknown") in critical_types:
@@ -111,9 +111,6 @@ def compute_scores(
     feature_types: Dict[str, str],
     sensor_weights: Dict[str, float],
 ) -> Dict[str, Any]:
-    """
-    actual/recon shape: (samples, seq_len, features)
-    """
     abs_err = np.abs(actual - recon)
     sq_err = (actual - recon) ** 2
 
@@ -128,10 +125,9 @@ def compute_scores(
 
     # weighted score
     weights = normalize_weights(feature_names, sensor_weights)
-    # abs_err: (samples, seq_len, features)
     weighted_seq_mae = (abs_err * weights.reshape(1, 1, -1)).sum(axis=2).mean(axis=1)
 
-    # critical sensors max
+    # critical sensors max (pressure/level)
     critical_idx = get_critical_feature_indices(feature_names, feature_types)
     if len(critical_idx) > 0:
         critical_abs = abs_err[:, :, critical_idx]
@@ -139,9 +135,9 @@ def compute_scores(
     else:
         critical_sensor_max = np.zeros(len(seq_mae), dtype=float)
 
-    # sensor type group scores
+    # 센서 타입별 score
     type_group_scores: Dict[str, np.ndarray] = {}
-    for sensor_type in ["pressure", "level", "flow", "current", "voltage", "inverter", "zt", "ao"]:
+    for sensor_type in ["pressure", "level", "flow", "current", "voltage", "inverter", "zt", "ao", "state"]:
         idx = [i for i, feat in enumerate(feature_names) if feature_types.get(feat, "unknown") == sensor_type]
         if len(idx) > 0:
             type_group_scores[sensor_type] = abs_err[:, :, idx].mean(axis=(1, 2))
@@ -286,7 +282,6 @@ def main():
 
     sample_index = max(0, min(args.sample_index, len(actual_inv) - 1))
 
-    # plots
     plot_actual_vs_recon(
         actual=actual_inv,
         recon=recon_inv,

@@ -13,12 +13,33 @@
     "상전류": "current"
   },
   "sensor_weights": {
-    "LT101": 0.9,
-    "LT102": 0.9,
-    "FT101": 0.9,
+    "LT101": 1.0,
+    "LT102": 1.0,
+    "FT101": 0.8,
     "상전류": 0.7
   },
   "sequence_length": 60,
   "sampling_minutes": 1,
-  "cohort": "B"
+  "cohort": "B",
+  "main_sensor_types": [
+    "pressure",
+    "level"
+  ],
+  "secondary_sensor_types": [
+    "flow",
+    "current",
+    "voltage",
+    "inverter",
+    "zt",
+    "ao"
+  ],
+  "score_policy": {
+    "primary_focus": [
+      "pressure",
+      "level"
+    ],
+    "use_weighted_residual": true,
+    "use_critical_sensor_max": true,
+    "deadband_required": true
+  }
 }

@@ -19,12 +19,33 @@
   "sensor_weights": {
     "PIT201": 1.0,
     "PIT202": 1.0,
-    "LT201_A": 0.9,
-    "LT201_B": 0.9,
+    "LT201_A": 1.0,
+    "LT201_B": 1.0,
     "A101": 0.7,
     "V101": 0.6
   },
   "sequence_length": 60,
   "sampling_minutes": 1,
-  "cohort": "A"
+  "cohort": "A",
+  "main_sensor_types": [
+    "pressure",
+    "level"
+  ],
+  "secondary_sensor_types": [
+    "flow",
+    "current",
+    "voltage",
+    "inverter",
+    "zt",
+    "ao"
+  ],
+  "score_policy": {
+    "primary_focus": [
+      "pressure",
+      "level"
+    ],
+    "use_weighted_residual": true,
+    "use_critical_sensor_max": true,
+    "deadband_required": true
+  }
 }

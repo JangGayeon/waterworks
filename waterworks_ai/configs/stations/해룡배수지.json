@@ -9,10 +9,31 @@
     "LI102": "other"
   },
   "sensor_weights": {
-    "LI101": 0.5,
-    "LI102": 0.5
+    "LI101": 0.4,
+    "LI102": 0.4
   },
   "sequence_length": 60,
   "sampling_minutes": 1,
-  "cohort": "C"
+  "cohort": "C",
+  "main_sensor_types": [
+    "pressure",
+    "level"
+  ],
+  "secondary_sensor_types": [
+    "flow",
+    "current",
+    "voltage",
+    "inverter",
+    "zt",
+    "ao"
+  ],
+  "score_policy": {
+    "primary_focus": [
+      "pressure",
+      "level"
+    ],
+    "use_weighted_residual": true,
+    "use_critical_sensor_max": true,
+    "deadband_required": true
+  }
 }

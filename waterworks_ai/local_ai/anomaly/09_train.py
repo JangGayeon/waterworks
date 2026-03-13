@@ -294,7 +294,7 @@ def main():
 
     for station_dir in station_dirs:
         train_station(
-            station_dir=station_dir,
+            station_dir=station _dir,
             epochs=args.epochs,
             batch_size=args.batch_size,
             learning_rate=args.lr,

@@ -5,29 +5,44 @@
     "PT102",
     "LT101A",
     "LT101B",
-    "LT102A",
-    "ZT101A",
-    "ZT101B"
+    "ZT101A"
   ],
   "feature_types": {
     "PT101": "pressure",
     "PT102": "pressure",
     "LT101A": "level",
     "LT101B": "level",
-    "LT102A": "level",
-    "ZT101A": "zt",
-    "ZT101B": "zt"
+    "ZT101A": "zt"
   },
   "sensor_weights": {
     "PT101": 1.0,
     "PT102": 1.0,
-    "LT101A": 0.9,
-    "LT101B": 0.9,
-    "LT102A": 0.9,
-    "ZT101A": 0.6,
-    "ZT101B": 0.6
+    "LT101A": 1.0,
+    "LT101B": 1.0,
+    "ZT101A": 0.6
   },
   "sequence_length": 60,
   "sampling_minutes": 1,
-  "cohort": "A"
+  "cohort": "A",
+  "main_sensor_types": [
+    "pressure",
+    "level"
+  ],
+  "secondary_sensor_types": [
+    "flow",
+    "current",
+    "voltage",
+    "inverter",
+    "zt",
+    "ao"
+  ],
+  "score_policy": {
+    "primary_focus": [
+      "pressure",
+      "level"
+    ],
+    "use_weighted_residual": true,
+    "use_critical_sensor_max": true,
+    "deadband_required": true
+  }
 }

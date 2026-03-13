@@ -4,21 +4,45 @@
     "유입압력",
     "유출압력_PV",
     "유출압력_SP",
-    "M101_RPM"
+    "M101_RPM",
+    "M103_RPM"
   ],
   "feature_types": {
     "유입압력": "pressure",
     "유출압력_PV": "pressure",
     "유출압력_SP": "pressure",
-    "M101_RPM": "other"
+    "M101_RPM": "inverter",
+    "M103_RPM": "inverter"
   },
   "sensor_weights": {
     "유입압력": 1.0,
     "유출압력_PV": 1.0,
     "유출압력_SP": 1.0,
-    "M101_RPM": 0.5
+    "M101_RPM": 0.7,
+    "M103_RPM": 0.7
   },
   "sequence_length": 60,
   "sampling_minutes": 1,
-  "cohort": "B"
+  "cohort": "A",
+  "main_sensor_types": [
+    "pressure",
+    "level"
+  ],
+  "secondary_sensor_types": [
+    "flow",
+    "current",
+    "voltage",
+    "inverter",
+    "zt",
+    "ao"
+  ],
+  "score_policy": {
+    "primary_focus": [
+      "pressure",
+      "level"
+    ],
+    "use_weighted_residual": true,
+    "use_critical_sensor_max": true,
+    "deadband_required": true
+  }
 }

@@ -15,10 +15,31 @@
   "sensor_weights": {
     "압력_토출_LEVEL": 1.0,
     "압력_흡입_LEVEL": 1.0,
-    "전력감시_A": 0.5,
-    "전력감시_V": 0.5
+    "전력감시_A": 0.4,
+    "전력감시_V": 0.4
   },
   "sequence_length": 60,
   "sampling_minutes": 1,
-  "cohort": "B"
+  "cohort": "B",
+  "main_sensor_types": [
+    "pressure",
+    "level"
+  ],
+  "secondary_sensor_types": [
+    "flow",
+    "current",
+    "voltage",
+    "inverter",
+    "zt",
+    "ao"
+  ],
+  "score_policy": {
+    "primary_focus": [
+      "pressure",
+      "level"
+    ],
+    "use_weighted_residual": true,
+    "use_critical_sensor_max": true,
+    "deadband_required": true
+  }
 }

@@ -19,12 +19,33 @@
   "sensor_weights": {
     "PT101": 1.0,
     "PT102": 1.0,
-    "LT101": 0.9,
-    "배수지수위": 0.9,
+    "LT101": 1.0,
+    "배수지수위": 1.0,
     "AMPARE": 0.7,
     "VOLT": 0.6
   },
   "sequence_length": 60,
   "sampling_minutes": 1,
-  "cohort": "A"
+  "cohort": "A",
+  "main_sensor_types": [
+    "pressure",
+    "level"
+  ],
+  "secondary_sensor_types": [
+    "flow",
+    "current",
+    "voltage",
+    "inverter",
+    "zt",
+    "ao"
+  ],
+  "score_policy": {
+    "primary_focus": [
+      "pressure",
+      "level"
+    ],
+    "use_weighted_residual": true,
+    "use_critical_sensor_max": true,
+    "deadband_required": true
+  }
 }
