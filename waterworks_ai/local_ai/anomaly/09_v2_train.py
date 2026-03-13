@@ -9,7 +9,7 @@ import torch.nn as nn
 from torch.utils.data import DataLoader, TensorDataset
 from tqdm import tqdm
 
-from local_ai.anomaly.model import LSTMAutoencoder
+from model import LSTMAutoencoder
 
 
 def project_root() -> Path:
