@@ -1,40 +1,27 @@
-{
-  "station": "송광상이.유량계실",
-  "cohort": "B",
-  "device": "cuda",
-  "n_features": 4,
-  "hidden_size": 32,
-  "num_layers": 1,
-  "batch_size": 512,
-  "learning_rate": 0.001,
-  "epochs_requested": 5,
-  "best_epoch": 4,
-  "best_val_loss": 0.002309756441163058,
-  "history": [
-    {
-      "epoch": 1,
-      "train_loss": 0.35037791191372675,
-      "val_loss": 0.006133741954083208
-    },
-    {
-      "epoch": 2,
-      "train_loss": 0.31106088883353505,
-      "val_loss": 0.0028244491226528147
-    },
-    {
-      "epoch": 3,
-      "train_loss": 0.30623189049373173,
-      "val_loss": 0.0030738309738418844
-    },
-    {
-      "epoch": 4,
-      "train_loss": 0.30231711647675974,
-      "val_loss": 0.002309756441163058
-    },
-    {
-      "epoch": 5,
-      "train_loss": 0.29921186848827575,
-      "val_loss": 0.003435612798013006
-    }
-  ]
-}
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.3510565234932593,
+    "val_loss": 0.007611781566623607
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.31096071860704394,
+    "val_loss": 0.003455762710683433
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.3063278749610624,
+    "val_loss": 0.0032312946828589786
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.30260603784329704,
+    "val_loss": 0.002963537514014872
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.29946584487522987,
+    "val_loss": 0.0021926634506647612
+  }
+]

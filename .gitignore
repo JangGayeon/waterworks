@@ -10,6 +10,9 @@ data/raw/
 data/processed/
 data/
 
+# model2.pt 파일은 추적
+!waterworks_ai/data/processed/datasets/*/model2.pt
+
 # 3. 가상환경 및 라이브러리 (용량 큼)
 water/
 venv/

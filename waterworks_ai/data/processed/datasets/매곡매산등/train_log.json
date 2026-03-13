@@ -1,40 +1,27 @@
-{
-  "station": "매곡매산등",
-  "cohort": "A",
-  "device": "cuda",
-  "n_features": 5,
-  "hidden_size": 64,
-  "num_layers": 2,
-  "batch_size": 256,
-  "learning_rate": 0.001,
-  "epochs_requested": 5,
-  "best_epoch": 5,
-  "best_val_loss": 0.0050441656866941275,
-  "history": [
-    {
-      "epoch": 1,
-      "train_loss": 0.050068716321233026,
-      "val_loss": 0.011833086071702779
-    },
-    {
-      "epoch": 2,
-      "train_loss": 0.017687617181727656,
-      "val_loss": 0.0074704403319327956
-    },
-    {
-      "epoch": 3,
-      "train_loss": 0.01037723660969003,
-      "val_loss": 0.006915850012192183
-    },
-    {
-      "epoch": 4,
-      "train_loss": 0.005490886659781456,
-      "val_loss": 0.00615706061623055
-    },
-    {
-      "epoch": 5,
-      "train_loss": 0.002519628521406001,
-      "val_loss": 0.0050441656866941275
-    }
-  ]
-}
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.04982466053553783,
+    "val_loss": 0.011749004623388142
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.019071658581245977,
+    "val_loss": 0.007128882688069954
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.012297030426581987,
+    "val_loss": 0.0067304953247441296
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.007182806871427286,
+    "val_loss": 0.00613270599288181
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.0037867949354284513,
+    "val_loss": 0.006260547608393578
+  }
+]

@@ -1,40 +1,27 @@
-{
-  "station": "서면지본",
-  "cohort": "A",
-  "device": "cuda",
-  "n_features": 9,
-  "hidden_size": 64,
-  "num_layers": 2,
-  "batch_size": 256,
-  "learning_rate": 0.001,
-  "epochs_requested": 5,
-  "best_epoch": 4,
-  "best_val_loss": 0.5848312686766471,
-  "history": [
-    {
-      "epoch": 1,
-      "train_loss": 0.14593743688330874,
-      "val_loss": 0.6245745536733525
-    },
-    {
-      "epoch": 2,
-      "train_loss": 0.11133480926384362,
-      "val_loss": 0.5958946035329253
-    },
-    {
-      "epoch": 3,
-      "train_loss": 0.0925732594787311,
-      "val_loss": 0.5922430066740115
-    },
-    {
-      "epoch": 4,
-      "train_loss": 0.07603026510642798,
-      "val_loss": 0.5848312686766471
-    },
-    {
-      "epoch": 5,
-      "train_loss": 0.06159033582547943,
-      "val_loss": 0.5881338217364748
-    }
-  ]
-}
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.14526977953374354,
+    "val_loss": 0.6043492228156998
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.10880102539917258,
+    "val_loss": 0.6027707864673496
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.08800962743789652,
+    "val_loss": 0.5920495331745929
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.07027483023014375,
+    "val_loss": 0.5844250603878627
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.054650927803692455,
+    "val_loss": 0.5862007657979253
+  }
+]

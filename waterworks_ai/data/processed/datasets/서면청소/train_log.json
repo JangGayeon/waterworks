@@ -1,40 +1,27 @@
-{
-  "station": "서면청소",
-  "cohort": "B",
-  "device": "cuda",
-  "n_features": 4,
-  "hidden_size": 32,
-  "num_layers": 1,
-  "batch_size": 512,
-  "learning_rate": 0.001,
-  "epochs_requested": 5,
-  "best_epoch": 5,
-  "best_val_loss": 4.742261315213179e-06,
-  "history": [
-    {
-      "epoch": 1,
-      "train_loss": 0.05310770942459259,
-      "val_loss": 0.00037116055534597384
-    },
-    {
-      "epoch": 2,
-      "train_loss": 0.00028680875207347386,
-      "val_loss": 3.061988715523496e-05
-    },
-    {
-      "epoch": 3,
-      "train_loss": 9.339394420546557e-05,
-      "val_loss": 1.0880109304902465e-05
-    },
-    {
-      "epoch": 4,
-      "train_loss": 5.466520810407215e-05,
-      "val_loss": 1.660353303581041e-05
-    },
-    {
-      "epoch": 5,
-      "train_loss": 3.7004729663547966e-05,
-      "val_loss": 4.742261315213179e-06
-    }
-  ]
-}
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.049143499882920966,
+    "val_loss": 0.00039094423561089576
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.0003148848259810481,
+    "val_loss": 3.610594512239665e-05
+  },
+  {
+    "epoch": 3,
+    "train_loss": 9.616763493369903e-05,
+    "val_loss": 9.125423143471263e-06
+  },
+  {
+    "epoch": 4,
+    "train_loss": 5.2430455691399855e-05,
+    "val_loss": 3.685513831482054e-06
+  },
+  {
+    "epoch": 5,
+    "train_loss": 3.496680989163138e-05,
+    "val_loss": 2.745455586810636e-06
+  }
+]

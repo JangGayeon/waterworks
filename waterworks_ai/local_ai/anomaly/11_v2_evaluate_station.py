@@ -8,7 +8,7 @@ import numpy as np
 import torch
 import matplotlib.pyplot as plt
 
-from local_ai.anomaly.model import LSTMAutoencoder
+from model import LSTMAutoencoder
 
 
 def project_root() -> Path:
@@ -28,7 +28,7 @@ def get_device() -> torch.device:
 
 
 def load_model_for_station(station_dir: Path, device: torch.device) -> Tuple[LSTMAutoencoder, Dict[str, Any]]:
-    ckpt = torch.load(station_dir / "model.pt", map_location=device, weights_only=False)
+    ckpt = torch.load(station_dir / "model.pt2", map_location=device, weights_only=False)
 
     n_features = int(ckpt["n_features"])
     hidden_size = int(ckpt["hidden_size"])

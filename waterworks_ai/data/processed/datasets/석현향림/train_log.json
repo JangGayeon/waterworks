@@ -1,40 +1,27 @@
-{
-  "station": "석현향림",
-  "cohort": "C",
-  "device": "cuda",
-  "n_features": 2,
-  "hidden_size": 16,
-  "num_layers": 1,
-  "batch_size": 512,
-  "learning_rate": 0.001,
-  "epochs_requested": 5,
-  "best_epoch": 5,
-  "best_val_loss": 0.0034706545107824607,
-  "history": [
-    {
-      "epoch": 1,
-      "train_loss": 0.13204344899585777,
-      "val_loss": 0.03494542747292834
-    },
-    {
-      "epoch": 2,
-      "train_loss": 0.023134437391018055,
-      "val_loss": 0.013564160013682698
-    },
-    {
-      "epoch": 3,
-      "train_loss": 0.01141753700748242,
-      "val_loss": 0.007332311774781903
-    },
-    {
-      "epoch": 4,
-      "train_loss": 0.007088106241857939,
-      "val_loss": 0.004955037246414895
-    },
-    {
-      "epoch": 5,
-      "train_loss": 0.004998694311973596,
-      "val_loss": 0.0034706545107824607
-    }
-  ]
-}
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.1368573983273584,
+    "val_loss": 0.032095992194863664
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.0221682224331715,
+    "val_loss": 0.01229366268594575
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.011076618992074206,
+    "val_loss": 0.006745040664011573
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.00698411398763812,
+    "val_loss": 0.004175469760588973
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.004956931015739635,
+    "val_loss": 0.002903472038311728
+  }
+]

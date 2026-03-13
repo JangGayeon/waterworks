@@ -1,40 +1,27 @@
-{
-  "station": "조례연동",
-  "cohort": "A",
-  "device": "cuda",
-  "n_features": 6,
-  "hidden_size": 64,
-  "num_layers": 2,
-  "batch_size": 256,
-  "learning_rate": 0.001,
-  "epochs_requested": 5,
-  "best_epoch": 5,
-  "best_val_loss": 0.017115739733356033,
-  "history": [
-    {
-      "epoch": 1,
-      "train_loss": 0.04950172422246269,
-      "val_loss": 0.023964989562096854
-    },
-    {
-      "epoch": 2,
-      "train_loss": 0.0017645507344452996,
-      "val_loss": 0.021190454438725293
-    },
-    {
-      "epoch": 3,
-      "train_loss": 0.0009772026213639043,
-      "val_loss": 0.01915166150145329
-    },
-    {
-      "epoch": 4,
-      "train_loss": 0.000663949454511031,
-      "val_loss": 0.018485579972269472
-    },
-    {
-      "epoch": 5,
-      "train_loss": 0.0005049196214186024,
-      "val_loss": 0.017115739733356033
-    }
-  ]
-}
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.053836286286883694,
+    "val_loss": 0.01569782953211979
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.002124202110911996,
+    "val_loss": 0.011164915594614338
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.0012092322491340074,
+    "val_loss": 0.010583370357551164
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.0008720168799478731,
+    "val_loss": 0.010755401511504961
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.0006802111805040642,
+    "val_loss": 0.00947673867174499
+  }
+]

@@ -1,40 +1,27 @@
-{
-  "station": "가곡택지",
-  "cohort": "B",
-  "device": "cuda",
-  "n_features": 3,
-  "hidden_size": 32,
-  "num_layers": 1,
-  "batch_size": 512,
-  "learning_rate": 0.001,
-  "epochs_requested": 5,
-  "best_epoch": 4,
-  "best_val_loss": 0.0005372749756819992,
-  "history": [
-    {
-      "epoch": 1,
-      "train_loss": 0.42245524976605453,
-      "val_loss": 0.0023966841112171957
-    },
-    {
-      "epoch": 2,
-      "train_loss": 0.3445140112660182,
-      "val_loss": 0.0008567984453773516
-    },
-    {
-      "epoch": 3,
-      "train_loss": 0.3014550680130009,
-      "val_loss": 0.0006393435025193112
-    },
-    {
-      "epoch": 4,
-      "train_loss": 0.2653119862718736,
-      "val_loss": 0.0005372749756819992
-    },
-    {
-      "epoch": 5,
-      "train_loss": 0.23453395322788964,
-      "val_loss": 0.0009775691204862965
-    }
-  ]
-}
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.4245642112452243,
+    "val_loss": 0.0023299608852061695
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.34931068427325285,
+    "val_loss": 0.0010646106241542252
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.3071382923500371,
+    "val_loss": 0.0008235068126737963
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.2717169216000466,
+    "val_loss": 0.0005989285191102407
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.24100373206961534,
+    "val_loss": 0.0005669715271197959
+  }
+]

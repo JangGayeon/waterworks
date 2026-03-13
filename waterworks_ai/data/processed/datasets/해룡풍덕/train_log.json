@@ -1,40 +1,27 @@
-{
-  "station": "해룡풍덕",
-  "cohort": "A",
-  "device": "cuda",
-  "n_features": 8,
-  "hidden_size": 64,
-  "num_layers": 2,
-  "batch_size": 256,
-  "learning_rate": 0.001,
-  "epochs_requested": 5,
-  "best_epoch": 5,
-  "best_val_loss": 0.31033655983047603,
-  "history": [
-    {
-      "epoch": 1,
-      "train_loss": 0.017651271385451157,
-      "val_loss": 0.6958934169613983
-    },
-    {
-      "epoch": 2,
-      "train_loss": 0.0018818132433563838,
-      "val_loss": 0.3746542440999458
-    },
-    {
-      "epoch": 3,
-      "train_loss": 0.0012073355205443014,
-      "val_loss": 0.35491121350409177
-    },
-    {
-      "epoch": 4,
-      "train_loss": 0.0008024152384929963,
-      "val_loss": 0.3396006678585033
-    },
-    {
-      "epoch": 5,
-      "train_loss": 0.0004980726886312383,
-      "val_loss": 0.31033655983047603
-    }
-  ]
-}
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.01936523867413101,
+    "val_loss": 0.7269669350224192
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.0019326099601419732,
+    "val_loss": 0.4771317999269975
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.0013139628842109342,
+    "val_loss": 0.4137001658286542
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.0009190844012236703,
+    "val_loss": 0.35640654720595893
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.0006036826112812872,
+    "val_loss": 0.33577418934163666
+  }
+]

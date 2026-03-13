@@ -1,40 +1,27 @@
-{
-  "station": "축내가압장",
-  "cohort": "B",
-  "device": "cuda",
-  "n_features": 4,
-  "hidden_size": 32,
-  "num_layers": 1,
-  "batch_size": 512,
-  "learning_rate": 0.001,
-  "epochs_requested": 5,
-  "best_epoch": 5,
-  "best_val_loss": 0.0013768108092428086,
-  "history": [
-    {
-      "epoch": 1,
-      "train_loss": 0.14462714545597935,
-      "val_loss": 0.008654748279931375
-    },
-    {
-      "epoch": 2,
-      "train_loss": 0.035690847746925,
-      "val_loss": 0.00380295835856288
-    },
-    {
-      "epoch": 3,
-      "train_loss": 0.027866328933045848,
-      "val_loss": 0.002500077105134071
-    },
-    {
-      "epoch": 4,
-      "train_loss": 0.0246809172749497,
-      "val_loss": 0.0017757904996071217
-    },
-    {
-      "epoch": 5,
-      "train_loss": 0.022610996885183213,
-      "val_loss": 0.0013768108092428086
-    }
-  ]
-}
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.14066032381813845,
+    "val_loss": 0.008059741171291997
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.035021463970568455,
+    "val_loss": 0.0038299300674784
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.027952284626267157,
+    "val_loss": 0.002511309000395246
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.024941260425147594,
+    "val_loss": 0.002246126302383216
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.023195196862209815,
+    "val_loss": 0.0017096237861736014
+  }
+]
