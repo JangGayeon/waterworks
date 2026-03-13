@@ -29,7 +29,7 @@ def train_one_station(
     X_train = np.load(station_dir / "X_train.npy")
     X_val = np.load(station_dir / "X_val.npy")
 
-    meta = json.loads((station_dir / "meta.json").read_text())
+    meta = json.loads((station_dir / "meta.json").read_text(encoding="utf-8"))
 
     n_features = X_train.shape[2]
     cohort = meta["cohort"]
@@ -129,14 +129,14 @@ def train_one_station(
                 "num_layers": layers,
                 "best_epoch": best_epoch,
                 "best_val_loss": best_val
-            }, station_dir / "model.pt")
+            }, station_dir / "model.pt2")
 
     (station_dir / "train_log.json").write_text(
         json.dumps(train_log, indent=2, ensure_ascii=False)
     )
 
-    print(f"[OK] saved best model -> {station_dir / 'model.pt'}")
-    print(f"[OK] saved train log  -> {station_dir / 'train_log.json'}")
+    print(f"[OK] saved best model -> {station_dir / 'model.pt2'}")
+    print(f"[OK] saved train log  -> {station_dir / 'train_log.json2'}")
 
 
 def main():
@@ -151,7 +151,7 @@ def main():
 
     device = get_device()
 
-    dataset_root = pr / "data" / "processed_v2" / "datasets"
+    dataset_root = pr / "data" / "processed" / "datasets"
 
     stations = sorted([p for p in dataset_root.iterdir() if p.is_dir()])
 
